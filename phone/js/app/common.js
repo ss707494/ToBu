@@ -148,7 +148,7 @@
     },
     getCurrentUID: function() {
       //__uID  87ac69d2-39be-476e-ab28-cc283cce6104
-      //return '87ac69d2-39be-476e-ab28-cc283cce6104';
+      return '87ac69d2-39be-476e-ab28-cc283cce6104';
       return localStorage.getItem('CurrentUID');
     },
     initFontSmall: function() {

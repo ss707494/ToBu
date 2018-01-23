@@ -117,6 +117,7 @@ appcan.ready(function() {
     var _lan = localStorage.getItem('d_language') || 'chi';
     LIST.map(function(e, i) {
       e.set('name', e.get('name_' + _lan));
+      e.set('weight', e.get('weight_' + _lan));
       e.set('d_stock', MODEL.get('d_stock'));
       e.set('stockStr', ( parseInt(e.get('stockNum')) == 0 ) ?MODEL.get('d_out_num') : MODEL.get('d_stock_limited'))
     })
@@ -131,8 +132,18 @@ appcan.ready(function() {
     res.name_eng = data['English' + 'Name'];
     res.name_chi = data['Chinese' + 'Name'];
     res.name_jpa = data['Japanese' + 'Name'];
-    res.weight = data.OutPriceArray[0]['F_CSPWeight'] + data.OutPriceArray[0]['F_CSPCompany'];
+    //res.weight = data.OutPriceArray[0]['F_CSPWeight'] + data.OutPriceArray[0]['F_CSPCompany'];
+    var _display = data['DisplayCompany'];
+    var _wei = _display.split('(')[0]
+
+    res.weight_chi = _wei.split('/')[0];
+    res.weight_eng = _wei.split('/')[1];
+    res.weight = res['weight_' + (localStorage.getItem('d_language') || 'chi')];
+    res.weightNum = data.OutPriceArray[0]['F_CSPWeight'];
     res.unit = data.OutPriceArray[0]['F_CSPCompany'];
+    res.unitStr = (_display.split('(')[1] ? '(' + _display.split('(')[1]: '');
+    res.unit = data.OutPriceArray[0]['F_CSPCompany'];
+
     res.imgPath = 'http://ensonbuy.com/Images/Commodity/' + data.ImagePath;
     res.isHot = data.BIsHot;
     res.isNew = data.BIsNew;

@@ -44,7 +44,10 @@
             </div>
             <div class="text-box">
               <div class="name nowrap-text" data-bind="text: name"></div>
-              <div class="weight" data-bind="text: weight"></div>
+              <div class="weight">
+              <div data-bind="text: weight"></div>
+              <div data-bind="text: unitStr"></div>
+              </div>
               <div class="price color-red" data-bind="text: price"></div>
             </div>
             <div class="count-box">
