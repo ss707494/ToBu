@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ToBu移动电子商城</title>
+    <script src="css/flexable/flexible_css.js"></script>
+    <script src="css/flexable/flexible.js"></script>
+    <link rel="stylesheet" href="css/appcan.control.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <link rel="stylesheet" href="css/app/order_list.css" >
+  </head>
+
+  <body>
+    <div id="viewModel">
+      <header class="header">
+        <div class="go_back">
+          <img src="images/back_ico.png" alt=""/>
+        </div>
+        <span data-bind="text: d_my_order"></span>
+      </header>
+      <div class="content">
+        <div class="search-box">
+          <form action="javascript: void(0);">
+            <div class="row">
+              <div class="time">
+                <label for="startDate" data-bind="text: d_start_date"></label>
+                <input type="date" data-bind="value: startDate, attr: {max: endDate} ">
+              </div>
+              <div class="time">
+                <label for="endDate" data-bind="text: d_end_date"></label>
+                <input type="date" data-bind="value: endDate, attr: {min: startDate}">
+              </div>
+            </div>
+            <div class="row product">
+                <label for="commodityName" data-bind="text: d_product_name"></label>
+                <input type="text" data-bind="value: commodityName">
+            </div>
+            <div class="row">
+              <div class="select-box">
+                <label class="label" data-bind="text: d_pay_type"></label>
+                <div class="select">
+                  <div class="text" data-bind="text: d_you_chose">
+                    请选择
+                  </div>
+                  <div class="icon"></div>
+                  <select data-bind="value: payType">
+                    <option data-bind="text: d_all" value="0" >全部</option>
+                    <option data-bind="text: d_card_pay" value="2" ></option>
+                    <option data-bind="text: d_huodaofukuan" value="3" ></option>
+                  </select>
+                </div>
+              </div>
+              <div class="select-box">
+                <label class="label" data-bind="text: d_order_state"></label>
+                <div class="select">
+                  <div class="text" data-bind="text: d_you_chose">
+                    请选择
+                  </div>
+                  <div class="icon"></div>
+                  <select data-bind="value: state">
+                    <option data-bind="text: d_all" value="0" >全部</option>
+                    <option data-bind="text: d_card_pending" value="1" >信用卡待付</option>
+                    <option data-bind="text: d_assembly" value="2" >配货中</option>
+                    <option data-bind="text: d_had_shipment" value="3" >已装船</option>
+                    <option data-bind="text: d_received" value="4" >已收货</option>
+                    <option data-bind="text: d_had_sign" value="5" >货到付款已签收</option>
+                    <option data-bind="text: d_complete" value="6" >完成</option>
+                    <option data-bind="text: d_cancle" value="7" >取消</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div id="list_" class="list" mvvm-scope data-bind="collection: $collection" >
+          <div class="item" data-bind="attr: {'data-id' : id}">
+            <div class="row">
+              <div class="title" data-bind="text: d_product_name"></div>
+              <div class="text name nowrap-text" data-bind="text: productNames"></div>
+            </div>
+            <div class="row">
+              <div class="title" data-bind="text: d_order_date"></div>
+              <div class="text" data-bind="text: datetime"></div>
+            </div>
+            <div class="row">
+              <div class="title small-tag" data-bind="text: d_order_num"></div>
+              <div class="text" data-bind="text: orderNum"></div>
+            </div>
+            <div class="row">
+              <div class="title" data-bind="text: d_pay_type"></div>
+              <div class="text name" data-bind="text: payTypeStr"></div>
+            </div>
+            <div class="row">
+              <div class="title" data-bind="text: d_order_state"></div>
+              <div class="text color-red" data-bind="text: stateStr"></div>
+            </div>
+            <div class="row">
+              <div class="title small-tag" data-bind="text: d_product_zongji"></div>
+              <div class="text" data-bind="text: product_zongji"></div>
+            </div>
+            <div class="arrow">
+              <i class="iconfont icon-more"></i>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <input class="back-red" id="back" type="button" data-bind="value: d_back">
+        </div>
+      
+      </div>
+    </div>
+
+    <script src="js/appcan.js"></script>
+    <script src="js/appcan.control.js"></script>
+    <script src="js/app/common.js"></script>
+    <script src="js/app/order_list.js"></script>
+  </body>
+</html>

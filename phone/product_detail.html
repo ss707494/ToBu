@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ToBu移动电子商城</title>
+    <script src="css/flexable/flexible_css.js"></script>
+    <script src="css/flexable/flexible.js"></script>
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/appcan.control.css">
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/app/product_detail.css" >
+  </head>
+  <body>
+    <div id="viewModel">
+      <header class="header">
+        <div class="go_back">
+          <img src="images/back_ico.png" alt=""/>
+        </div>
+        <span data-bind="text: d_product_detail"></span>
+      </header>
+      <div class="content">
+        <!--网站建设中...-->
+        <div class="img pro-detail">
+          <img data-bind="attr: {src: imgPath, alt: name}">
+          <div class="rightTip">
+            <div data-bind="classes: {hidden: not(isNew)}" class="new">NEW</div>
+            <div data-bind="classes: {hidden: not(isHot)}" class="hot">HOT</div>
+          </div>
+        </div>
+        <div class="row font-bold">
+          <div class="name">
+            <div class="font-size-large" data-bind="text: nameLan"></div>
+            (
+            <div data-bind="text: d_stock"></div>
+            <div data-bind="text: stockNum"></div>
+            )
+          </div>
+          <div class="price">
+            <div data-bind="text: d_unit_price"></div>
+            : 
+            <div class="color-red font-size-large" data-bind="text: price"></div>
+            <!--/-->
+            <!--<div data-bind="text: weight"></div>-->
+          </div>
+        </div>
+        <!--<div class="row font-bold">-->
+          <!--<div class="compa">-->
+            <!--<div data-bind="text: d_company_name"></div>-->
+            <!--:-->
+            <!--<div data-bind="text: d_product_detail"></div>-->
+          <!--</div>-->
+        <!--</div>-->
+        <div class="row font-bold">
+          <div class="brand">
+            <div data-bind="text: d_brand"></div>
+            :
+            <div data-bind="text: brand"></div>
+          </div>
+        </div>
+        <div class="row font-bold">
+          <div class="price">
+            <div data-bind="text: d_sail_unit"></div>
+            : 
+            <div data-bind="text: weightLan"></div>
+          </div>
+        </div>
+        <div class="row chose-num">
+          <div data-bind="text: d_chose_num"></div>
+          <div class="chose-box">
+          <div class="count-num" data-bind="attr: {'data-id' : id}" >
+            <input class="btn min" type="button" value="-"/>
+            <input class="number" type="number" min="0"data-bind="value: choNum, attr: {max: integer(stockNum)}"/>
+            <input class="btn add" type="button" value="+"/>
+          </div>
+          <!--<div data-bind="text: unit"></div>-->
+          </div>
+        </div>
+        <div class="row">
+          <div data-bind="text: d_product_remark"></div>
+        </div>
+        <div class="remark" data-bind="text: remarkLan"></div>
+        <div class="bottom">
+          <div class="shopCar">
+          <input type="button" name="" id="shopCar" data-bind="value:  d_bussiness_center"/>
+          <i class="iconfont icon-gouwuche"></i>
+          <span class="shopNum back-red" data-bind="text: shopListNum"></span>
+          </div>
+          <div class="joinCar">
+          <input class="back-red" type="button" name="" id="joinShopCar"  data-bind="value: d_put_in_car, disabled: hasAmount" />
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <script src="js/appcan.js"></script>
+    <script src="js/appcan.control.js"></script>
+    <script src="js/app/common.js"></script>
+    <script src="js/app/product_detail.js"></script>
+  </body>
+</html>

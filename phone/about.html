@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ToBu移动电子商城</title>
+    <script src="css/flexable/flexible_css.js"></script>
+    <script src="css/flexable/flexible.js"></script>
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/appcan.control.css"/>
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/app/about.css"/>
+  </head>
+<body>
+  <div id="viewModel">
+    <header class="header">
+      <div class="go_back">
+        <img src="images/back_ico.png" alt=""/>
+      </div>
+      <span data-bind="text: d_about">联系我们</span>
+    </header>
+    <section class="content">
+      <div><img class="img" src="images/about.png" alt=""></div>
+      <div class="row">
+        <div class="item">
+          <div class="top">
+            <span data-bind="text: d_address"></span>
+          </div>
+          <div class="text" data-bind="text: d_address_msg0"></div>
+          <div class="text" data-bind="text: d_address_msg1"></div>
+        </div>
+        <div class="item">
+          <div class="top">
+            <span data-bind="text: d_link"></span>
+          </div>
+          <div class="text blue">www.tobucorp.com</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="item">
+          <div class="top">
+            <span data-bind="text: d_email_about"></span>
+          </div>
+          <div class="text blue">qz@tobucorp.com</div>
+        </div>
+        <div class="item">
+          <div class="top">
+            <span data-bind="text: d_telephone"></span>
+          </div>
+          <div class="text"><span data-bind="text: d_telephone_ENG"></span><span class="blue"> 513-604-7144</span></div>
+          <div class="text"><span data-bind="text: d_telephone_CHI"></span><span class="blue"> 513-604-7066</span></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="item">
+          <div class="top">
+            <span data-bind="text: d_fax"></span>
+          </div>
+          <div class="text">513-771-1666</div>
+        </div>
+        <div class="item">
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="js/appcan.js"></script>
+  <script src="js/appcan.control.js"></script>
+  <script src="js/app/common.js"></script>
+  <script>
+    appcan.ready(function() {
+      var __uID = SSTool.getCurrentUID();
+      // 初始化
+      var MODEL = SSTool.getModel()
+      MODEL.set({});
+      if(__uID) {
+        SSTool.initFooter('about');
+      }
+      appcan.window.on('resume', function() {
+        var __uID = SSTool.getCurrentUID();
+        if(__uID) {
+          SSTool.initFooter('about');
+        }
+      });
+      SSTool.init();
+    });
+  </script>
+</body>
+</html>

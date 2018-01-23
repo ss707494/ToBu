@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>ToBu移动电子商城</title>
+    <script src="js/index.min.js"></script>
+    <link rel="stylesheet" href="css/appcan.control.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/app/login.css" >
+  </head>
+
+  <body>
+    <div id="viewModel">
+      <div class="top_login"></div>
+      <div class="logo"><img src="images/logo.png" /></div>
+      <div class="logo_bt" data-bind="text: d_logTitle">ToBu移动电子商城</div>
+      <div class="input_bianju">
+        <form id="loginSub" action="javascript: void(0);">
+          <div class="input_kuang"><input data-bind="value: userName, attr: {'placeholder': d_userName_login_pla}" name="" type="input" class="input_xs" /></div>
+          <div class="input_kuang"><input data-bind="value: password, attr: {'placeholder': d_password_pla}" type="password" class="input_xs"/></div>
+          <div class="anniu_bk"><button id="sub" type="submit" class="anniu_xs"  data-bind="text: d_ok"></button></div>
+        </form>
+      </div>
+      <div id="regist" class="banben_hao" data-bind="text: d_regist"></div>
+      <div class="di_wei">
+        <div class="di_left" data-bind="text: d_banben">版本：ToBu2018 V1.0</div>
+        <div id="about" class="di_right" data-bind="text: d_callMe">联系我们</div>
+      </div>
+    </div>
+    <script src="js/appcan.js"></script>
+    <script src="js/appcan.control.js"></script>
+    <script src="js/app/common.js"></script>
+    <script src="js/app/login.js"></script>
+  </body>
+</html>

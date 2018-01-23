@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>ToBu移动电子商城</title>
+    <script src="js/index.min.js"></script>
+    <link rel="stylesheet" href="css/appcan.control.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <link rel="stylesheet" href="css/app/index.css" >
+  </head>
+
+  <body>
+    <div id="viewModel">
+      <div class="top_msg">
+        <img src="images/headimg.png" alt="">
+        <div class="msg">
+          <div class="name" data-bind="text: name"></div>
+          <div class="phone" data-bind="text: phone"></div>
+        </div>
+      </div>
+      <div class="content">
+        <div id="toMyOrder" class="row">
+          <div class="text" data-bind="text: d_my_order"></div>
+          <div class="allorder">
+            <span data-bind="text: d_my_order"></span>
+            <i class="iconfont icon-more"></i>
+          </div>
+        </div>
+        <div class="row orderMenu">
+          <div class="menuItem iconItem">
+            <i class="iconfont icon-huodaofukuan"></i>
+            <span data-bind="text: d_huodaofukuan"></span>
+          </div>
+          <div class="menuItem iconItem">
+            <i class="iconfont icon-yifahuoan"></i>
+            <span data-bind="text: d_yifahuoan"></span>
+          </div>
+          <div class="menuItem iconItem">
+            <i class="iconfont icon-yishouhuo"></i>
+            <span data-bind="text: d_yishouhuo"></span>
+          </div>
+          <div class="menuItem iconItem">
+            <i class="iconfont icon-huizhiqianshou"></i>
+            <span data-bind="text: d_huizhiqianshou"></span>
+          </div>
+          <div class="menuItem iconItem">
+            <i class="iconfont icon-yiwancheng"></i>
+            <span data-bind="text: d_yiwancheng"></span>
+          </div>
+          <div class="menuItem iconItem">
+            <i class="iconfont icon-weiwancheng"></i>
+            <span data-bind="text: d_weiwancheng"></span>
+          </div>
+        
+        </div>
+        <div id="base_msg" class="row">
+          <div class="text" data-bind="text: d_base_msg"></div>
+          <i class="iconfont icon-more"></i>
+        </div>
+        <div id="address" class="row">
+          <div class="text" data-bind="text: d_address_mange"></div>
+          <i class="iconfont icon-more"></i>
+        </div>
+        <div id="creditCard" class="row">
+          <div class="text" data-bind="text: d_creditCard"></div>
+          <i class="iconfont icon-more"></i>
+        </div>
+        
+        
+      </div>
+    </div>
+
+    <script src="js/appcan.js"></script>
+    <script src="js/appcan.control.js"></script>
+    <script src="js/app/common.js"></script>
+    <script src="js/app/index.js"></script>
+  </body>
+</html>

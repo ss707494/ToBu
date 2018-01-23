@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ToBu移动电子商城</title>
+    <script src="css/flexable/flexible_css.js"></script>
+    <script src="css/flexable/flexible.js"></script>
+    <link rel="stylesheet" href="css/appcan.control.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <link rel="stylesheet" href="css/app/bill.css" >
+  </head>
+
+    <body>
+      <div id="viewModel">
+        <header class="header">
+          <div class="go_back">
+            <img src="images/back_ico.png" alt=""/>
+          </div>
+          <span data-bind="text: d_account"></span>
+        </header>
+        <div class="content">
+          <div class="top-msg">
+            <span data-bind="text: d_product_total_num"></span>
+            <span class="color-red" data-bind="text: choseNum"></span>
+            <span data-bind="text: d_piece"></span>,
+            <span data-bind="text: d_price_sum"></span>
+            <span class="color-red">￥</span>
+            <span class="color-red" data-bind="text: totalPrice"></span>
+          </div>
+          <div class="chose-address">
+            <div class="label" data-bind="text: d_post_address"></div>
+            <div class="select">
+              <div class="text" data-bind="text: d_you_chose">
+                请选择
+              </div>
+              <div class="icon"></div>
+              <select mvvm-scope data-bind="value: rID, for: addressOption">
+                <option data-bind="value: value, text: text" ></option>
+              </select>
+            </div>
+          </div>
+          <div class="dividing">
+            <img src="images/Group.png" alt="">
+          </div>
+          <div class="address-infobox">
+            <div class="name" data-bind="text: ad_name"></div>
+            <div data-bind="text: ad_detail"></div>
+            <div class="row area-row">
+              <div data-bind="text: ad_city"></div>
+              <div data-bind="text: ad_area"></div>
+              <div data-bind="text: ad_code"></div>
+            </div>
+            <div data-bind="text: ad_phone"></div>
+          </div>
+          <div class="card-select">
+            <div class="label" data-bind="text: d_pay_type"></div>
+            <div class="select">
+              <div class="text" data-bind="text: d_card_pay">
+              </div>
+              <div class="icon"></div>
+              <select data-bind="value: payType">
+                <option value="3" data-bind="text: d_card_pay"></option>
+                <option value="2" data-bind="toggle: showHuodaofukuan,text: d_huodaofukuan"></option>
+              </select>
+            </div>
+          </div>
+
+          <div class="card-box" data-bind="toggle: showCardBox">
+            <div class="text-ipt">
+              <label for="cardNum" data-bind="text: d_cardNum"></label>
+              <input type="text" data-bind="value: F_CCNumber, attr: {'placeholder': d_cardNum_pla}">
+            </div>
+            <div class="text-ipt">
+              <label class="small-tag" for="cardNum" data-bind="text: d_usefulTime"></label>
+              <div class="useful">
+                <div class="select">
+                  <div class="text" data-bind="text: d_you_chose">
+                  </div>
+                  <div class="icon"></div>
+                  <select data-bind="value: F_CCMonth">
+                    <option value=01>01</option>
+                    <option value=02>02</option>
+                    <option value=03>03</option>
+                    <option value=04>04</option>
+                    <option value=05>05</option>
+                    <option value=06>06</option>
+                    <option value=07>07</option>
+                    <option value=08>08</option>
+                    <option value=09>09</option>
+                    <option value=10>10</option>
+                    <option value=11>11</option>
+                    <option value=12>12</option>
+                  </select>
+                </div>
+                <div class="select">
+                  <div class="text" data-bind="text: d_you_chose">
+                  </div>
+                  <div class="icon"></div>
+                  <select data-bind="value: F_CCYear">
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2026">2026</option>
+                    <option value="2026">2027</option>
+                    <option value="2026">2028</option>
+                    <option value="2026">2029</option>
+                    <option value="2026">2030</option>
+                    <option value="2026">2031</option>
+                    <option value="2026">2032</option>
+                    <option value="2026">2033</option>
+                    <option value="2026">2034</option>
+                    <option value="2026">2035</option>
+                    <option value="2026">2036</option>
+                    <option value="2026">2037</option>
+                    <option value="2026">2038</option>
+                    <option value="2026">2039</option>
+                    <option value="2026">2040</option>
+                    <option value="2026">2041</option>
+                    <option value="2026">2042</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="text-ipt">
+              <label for="yanzhengCode" data-bind="text: d_yanzhengCode"></label>
+              <input type="text" data-bind="value: F_CCValiateCode, attr: {'placeholder': d_yanzhengCode}">
+            </div>
+            <div class="text-ipt">
+              <label for="code" data-bind="text: d_pla_code"></label>
+              <input type="text" data-bind="value: F_CCZipCode, attr: {'placeholder': d_pla_code}">
+            </div>
+          </div>
+
+          <div class="btn">
+            <input class="back-red" id="sub" type="button" data-bind="value: d_sure_submit">
+          </div>
+        </div>
+      </div>
+
+      <script src="js/appcan.js"></script>
+      <script src="js/appcan.control.js"></script>
+      <script src="js/app/common.js"></script>
+      <script src="js/app/bill.js"></script>
+    </body>
+</html>

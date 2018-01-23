@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ToBu移动电子商城</title>
+    <script src="css/flexable/flexible_css.js"></script>
+    <script src="css/flexable/flexible.js"></script>
+    <link rel="stylesheet" href="css/appcan.control.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <link rel="stylesheet" href="css/app/shoppingCar.css" >
+  </head>
+
+  <body>
+    <div id="viewModel">
+      <header class="header">
+        <div class="go_back">
+          <img src="images/back_ico.png" alt=""/>
+        </div>
+        <span data-bind="text: d_my_shop_car"></span>
+      </header>
+      <div class="content">
+        <div class="top-tip">
+          <span data-bind="text: d_total_num"></span>
+          <span class="text-margin" data-bind="text: totalNum"></span>
+          <span data-bind="text: d_piece"></span>
+          ,
+          <span data-bind="text: d_account_chose"></span>
+          <span class="text-margin" data-bind="text: choseCheck"></span>
+          <span data-bind="text: d_piece"></span>
+          <div class="checkbox">
+            <input type="checkbox" class="" data-bind="checked: checkAll"/>
+          </div>
+        </div>
+        <div id="list_" class="list" mvvm-scope data-bind="collection: $collection" >
+          <div class="item" data-bind="attr: {'data-id' : id}">
+            <div class="img">
+              <img data-bind="attr: {src: imgPath, alt: name}">
+              <div class="rightTip">
+                <div data-bind="classes: {hidden: not(isNew)}" class="new">NEW</div>
+                <div data-bind="classes: {hidden: not(isHot)}" class="hot">HOT</div>
+              </div>
+            </div>
+            <div class="text-box">
+              <div class="name nowrap-text" data-bind="text: name"></div>
+              <div class="weight" data-bind="text: weight"></div>
+              <div class="price color-red" data-bind="text: price"></div>
+            </div>
+            <div class="count-box">
+              <div class="checkbox">
+                <input type="checkbox" class="" data-bind="checked: isCheck"/>
+              </div>
+              <div data-bind="toggle: showStock" class="stock" >
+              (
+              <!--<span data-bind="text: d_stock"></span>-->
+              <span data-bind="text: stockStr"></span>
+              )
+              </div>
+              <div class="count-lbox">
+              <div class="count-num" data-bind="attr: {'data-id' : id}" >
+                <input class="btn min" type="button" value="-"/>
+                <input class="number" type="number" min="0" data-bind="value: choNum, attr: {max: integer(stockNum)}"/>
+                <input class="btn add" type="button" value="+"/>
+              </div>
+              <!--<div class="unit" data-bind="text: unit"></div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="endbtn">
+          <div class="end-text">
+            <span data-bind="text: d_total"></span>
+            <span data-bind="text: choseNum"></span>
+            <span data-bind="text: d_piece"></span>
+            ,
+            <span data-bind="text: d_sum"></span>
+            :
+            <span class="color-red">￥</span>
+            <span class="color-red" data-bind="text: totalPrice"></span>
+          </div>
+          <div class="btn">
+            <input type="button" data-bind="value: d_account">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/appcan.js"></script>
+    <script src="js/appcan.control.js"></script>
+    <script src="js/app/common.js"></script>
+    <script src="js/app/shoppingCar.js"></script>
+  </body>
+</html>

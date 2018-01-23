@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ToBu移动电子商城</title>
+    <script src="css/flexable/flexible_css.js"></script>
+    <script src="css/flexable/flexible.js"></script>
+    <link rel="stylesheet" href="css/appcan.control.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <link rel="stylesheet" href="css/app/order_detail.css" >
+  </head>
+
+  <body>
+    <div id="viewModel">
+      <header class="header">
+        <div class="go_back">
+          <img src="images/back_ico.png" alt=""/>
+        </div>
+        <span data-bind="text: d_order_detail"></span>
+      </header>
+      <div class="content">
+        <div class="top-msg">
+          <div><span data-bind="text: d_order_num_hao"></span>: <span data-bind="text: order_num"></span></div>
+          <div><span data-bind="text: d_date_str"></span>: <span data-bind="text: order_date"></span></div>
+          <div><span data-bind="text: d_pay_type"></span>: <span data-bind="text: order_payType"></span></div>
+          <div><span data-bind="text: d_order_state"></span>: <span data-bind="text: order_state"></span></div>
+          <div><span data-bind="text: d_product_total_num"></span>: <span data-bind="text: pro_num"></span><span data-bind="text: d_piece"></span></div>
+          <div><span data-bind="text: d_price_sum"></span>: ￥<span data-bind="text: order_price"></span></div>
+        </div>
+        <div class="dividing">
+          <img src="images/Group.png" alt="">
+        </div>
+        <div class="address-infobox">
+          <div class="name-title">
+            <div class="name" data-bind="text: ad_name"></div>
+            <div class="title" data-bind="text: d_post_address"></div>
+          </div>
+          <div data-bind="text: ad_detail"></div>
+          <div class="row area-row">
+            <div data-bind="text: ad_city"></div>
+            <div data-bind="text: ad_area"></div>
+            <div data-bind="text: ad_code"></div>
+          </div>
+          <div data-bind="text: ad_phone"></div>
+        </div>
+        <div class="card-msg back-red">
+          <div data-bind="collection: $cardInfo">
+            <div>
+            <div class="title" data-bind="text: d_card_info"></div>
+            <div class="row">
+              <div data-bind="text: d_cardNum"></div>: 
+              <div data-bind="text: cardNum"></div>
+            </div>
+            <div class="row">
+              <div data-bind="text: d_usefulTime"></div>: 
+              <div>
+              <span data-bind="text: year"></span>
+              <span data-bind="text: d_year"></span>
+              <span data-bind="text: month"></span>
+              <span data-bind="text: d_month"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div data-bind="text: d_yanzhengCode"></div>: 
+              <div data-bind="text: yzCode"></div>
+            </div>
+            <div class="row">
+              <div data-bind="text: d_pla_code"></div>: 
+              <div data-bind="text: code"></div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="list" data-bind="for: productList">
+          <div class="item">
+            <div class="img">
+              <img data-bind="attr: {src: imgUrl, alt: name}">
+            </div>
+            <div class="text">
+              <div class="name" data-bind="text: name"></div>
+              <div class="unit" data-bind="text: weightUnit"></div>
+              <div class="num" >
+                <span data-bind="text: d_number"></span>
+                : 
+                <span data-bind="text: num"></span>
+              </div>
+            </div>
+            <div class="price">
+              ￥ 
+              <span data-bind="text: price"></span>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <input class="back-red" id="back" type="button" data-bind="value: d_back">
+        </div>
+      </div>
+    </div>
+
+    <script src="js/appcan.js"></script>
+    <script src="js/appcan.control.js"></script>
+    <script src="js/app/common.js"></script>
+    <script src="js/app/order_detail.js"></script>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #F5F5F5;
+}
+
+/* 登录 */
+.top_login {
+	text-align: right;
+	font-size: .4rem;
+	line-height: .7rem;
+  height: .7rem;
+	padding-right: .2rem;
+	color: #E81767;
+	background: #FFF;
+}
+.top_login a {
+	color: #E81767;
+	text-decoration: underline;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	border-bottom: 1px solid #EBEBEB;
+	background: #FFF;
+  /*margin-bottom: .2rem;*/
+  padding: .2rem 0;
+}
+.logo img {
+	width: 1.8rem;
+}
+.logo_bt {
+	font-size: .7rem;
+	line-height: 1.4rem;
+  height: 1.4rem;
+	text-align: center;
+	color: #E81767;
+	border-bottom: 1px solid #EBEBEB;
+}
+.input_bianju {
+}
+.input_kuang {
+	margin: .3rem .5rem 0 ;
+}
+.input_xs {
+  width: 100%;
+  line-height: 1.2rem;
+  height: 1.2rem;
+  text-indent: .3rem;
+	font-size: .5rem;
+	color: #9B9B9B;
+}
+.anniu_bk {
+	padding: .3rem .5rem 0 ;
+	margin-top: .5rem;
+	border-top: 1px solid #EBEBEB;
+}
+.anniu_xs {
+	width: 100%;
+	line-height: 1.2rem;
+  height: 1.2rem;
+	font-size: .5rem;
+	color: #FFF;
+	background: #E81767;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	border-radius: .1rem;
+}
+.banben_hao {
+	text-align: center;
+	line-height: 1.2rem;
+  height: 1.2rem;
+	font-size: .4rem;
+  display: flex;
+}
+.banben_hao #regist {
+	color: #ED1C24;
+  text-decoration: underline;
+
+}
+.banben_hao > div {
+  flex: 1;
+}
+.banben_hao .save-state {
+  display: flex;
+  align-items: center;
+}
+.banben_hao .checkbox {
+  height: auto;
+}
+.di_wei {
+	font-size: .4rem;
+	color: #E81767;
+	height: 1.2rem;
+	line-height: 1.2rem;
+  height: 1.2rem;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.di_wei a {
+	color: #E81767;
+	text-decoration: none;
+}
+.di_wei>div {
+  margin: 0 .2rem;
+}
+.di_wei .di_right {
+  text-decoration: underline;
+}
+
+.iSlider {
+  height: 4rem;
+}
+.iSlider img{
+  width: 10rem;
+  height: 100%;
+}
+.islider-dot-wrap {
+  top: 7rem;
+}
+/*end*/

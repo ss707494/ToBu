@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <title>ToBu移动电子商城</title>
+    <script src="js/index.min.js"></script>
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/appcan.control.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/app/base_msg.css"/>
+  </head>
+<body>
+  <div id="viewModel">
+    <header class="header">
+      <div class="go_back">
+      <img src="images/back_ico.png" alt=""/>
+      </div>
+      <span data-bind="text: d_base_msg"></span>
+    </header>
+    <section class="content">
+      <div class="text-ipt">
+        <label class="small-tag" for="old_password" data-bind="text: d_old_password"></label>
+        <input type="password" data-bind="value: old_password, attr: {'placeholder': d_old_password_pla}">
+      </div>
+      <div class="text-ipt">
+        <label for="new_password" data-bind="text: d_new_password"></label>
+        <input type="password" data-bind="value: new_password, attr: {'placeholder': d_new_password_pla}">
+      </div>
+      <div class="text-ipt">
+        <label for="sure_password" data-bind="text: d_sure_password"></label>
+        <input type="password" data-bind="value: sure_password, attr: {'placeholder': d_sure_password_pla}">
+      </div>
+      <div class="text-ipt">
+        <label for="phoneNum" data-bind="text: d_phoneNum"></label>
+        <input type="number" data-bind="value: phoneNum, attr: {'placeholder': d_phoneNum_pla}">
+      </div>
+      <div class="text-ipt">
+        <label for="email" data-bind="text: d_email"></label>
+        <input type="text" data-bind="value: email, attr: {'placeholder': d_email_pla}">
+      </div>
+      <div class="btn">
+        <input id="sub" type="button" data-bind="value: d_submit">
+      </div>
+    </section>
+  </div>
+  <script src="js/appcan.js"></script>
+  <script src="js/appcan.control.js"></script>
+  <script src="js/app/common.js"></script>
+  <script src="js/app/base_msg.js"></script>
+</body>
+</html>

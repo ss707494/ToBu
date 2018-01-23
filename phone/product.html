@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ToBu移动电子商城</title>
+    <script src="css/flexable/flexible_css.js"></script>
+    <script src="css/flexable/flexible.js"></script>
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/appcan.control.css">
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/app/product.css" >
+  </head>
+  <body>
+    <div id="viewModel">
+      <header class="header">
+        <div class="go_back">
+          <img src="images/back_ico.png" alt=""/>
+        </div>
+        <span data-bind="text: d_product_list"></span>
+      </header>
+      <div class="content">
+        <div class="search-bar">
+          <div class="productClass">
+              <div class="label" data-bind="text: d_product_class"></div>
+              <div class="select">
+                <div class="text" data-bind="text: d_you_chose">
+                </div>
+                <div class="icon"></div>
+                <select mvvm-scope data-bind="value: TypeID, for: classList">
+                  <option data-bind="value: value, text: text" ></option>
+                </select>
+              </div>
+          </div>
+          <form id="searchAct" class="search-input" action="javascript: void(0);">
+            <label for="userName" data-bind="text: d_keyword"></label>
+            <input type="search" data-bind="value: KeyText">
+            <i id="search" class="iconfont icon-sousuo"></i>
+          </form>
+        </div>
+        <div class="list" mvvm-scope data-bind="collection: $collection" >
+          <div class="item" data-bind="attr: {'data-id' : id}">
+            <div class="img">
+              <img data-bind="attr: {src: imgPath, alt: name}">
+            </div>
+            <div class="first">
+              <div class="name nowrap-text" data-bind="text: name"></div>
+              <div class="stock" data-bind="toggle: showStock" >
+              (
+              <!--<span data-bind="text: d_stock"></span>-->
+              <span class="small-tag" data-bind="text: stockStr"></span>
+              )
+              </div>
+            </div>
+            <div class="second">
+              <div class="weight" data-bind="text: weight"></div>
+              <div class="count-num" data-bind="attr: {'data-id' : id}" >
+                <input class="btn min" type="button" value="-"/>
+                <input class="number" type="number" min="0"data-bind="value: choNum, attr: {max: integer(stockNum)}"/>
+                <input class="btn add" type="button" value="+"/>
+              </div>
+              <!--<div class="unit" data-bind="text: unit"></div>-->
+            </div>
+            <div class="price" >
+              <div data-bind="text: price"></div>
+              <div class="anniu_bk joinCar" data-bind="attr: {'data-id' : id}">
+                <input type="button" class="anniu_xs" data-bind="value:  d_put_in_car, disabled: hasAmount"/>
+                <i class="iconfont icon-gouwuche"></i>
+              </div>
+            </div>
+            <div class="rightTip">
+              <div data-bind="classes: {hidden: not(isNew)}" class="new">NEW</div>
+              <div data-bind="classes: {hidden: not(isHot)}" class="hot">HOT</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/appcan.js"></script>
+    <script src="js/appcan.control.js"></script>
+    <script src="js/app/common.js"></script>
+    <script src="js/app/product.js"></script>
+  </body>
+</html>

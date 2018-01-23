@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <title>ToBu移动电子商城</title>
+    <script src="js/index.min.js"></script>
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/appcan.control.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/app/address.css"/>
+  </head>
+<body>
+  <div id="viewModel">
+    <header class="header">
+      <div class="go_back">
+      <img src="images/back_ico.png" alt=""/>
+      </div>
+      <span data-bind="text: d_address_mange"></span>
+    </header>
+    <section class="content">
+      <div id="sli_box" class="sli_box">
+      <div class="item_box">
+        <div class="top_title">
+          <div class=""></div>
+          <div class="text" data-bind="text: d_address_first"></div>
+          <div class="next_btn">&gt;&gt;</div>
+        </div>
+        <div class="text-ipt">
+          <label for="pla_address" data-bind="text: d_pla_address"></label>
+          <input type="text" data-bind="value: address, attr: {'placeholder': ''}">
+        </div>
+        <div class="text-ipt">
+          <label for="pla_name" data-bind="text: d_pla_name"></label>
+          <input type="text" data-bind="value: name, attr: {'placeholder': ''}">
+        </div>
+        <div class="text-ipt">
+          <label for="pla_street" data-bind="text: d_pla_street"></label>
+          <input type="text" data-bind="value: street, attr: {'placeholder': ''}">
+        </div>
+        <div class="text-ipt">
+          <label for="detail_address" data-bind="text: d_detail_address"></label>
+          <input type="text" data-bind="value: detail, attr: {'placeholder': d_pla_unit}">
+        </div>
+        <div class="text-two">
+          <div class="text-ipt">
+            <label for="pla_city" data-bind="text: d_pla_city"></label>
+            <input type="text" data-bind="value: city, attr: {'placeholder': ''}">
+          </div> 
+          <div class="text-ipt">
+            <label class="text-cen" for="pla_code" data-bind="text: d_state"></label>
+            <div class="select">
+              <div id="statueDisplay1" class="text" data-bind="value:statue">
+              </div>
+              <div class="icon"></div>
+              <select data-bind="value: statue">
+                <option value="AL">AL</option>
+                <option value="AK">AK</option>
+                <option value="AZ">AZ</option>
+                <option value="AR">AR</option>
+                <option value="CA">CA</option>
+                <option value="CO">CO</option>
+                <option value="CT">CT</option>
+                <option value="DE">DE</option>
+                <option value="DC">DC</option>
+                <option value="FL">FL</option>
+                <option value="GA">GA</option>
+                <option value="HI">HI</option>
+                <option value="ID">ID</option>
+                <option value="IL">IL</option>
+                <option value="IN">IN</option>
+                <option value="IA">IA</option>
+                <option value="KS">KS</option>
+                <option value="KY">KY</option>
+                <option value="LA">LA</option>
+                <option value="ME">ME</option>
+                <option value="MD">MD</option>
+                <option value="MA">MA</option>
+                <option value="MI">MI</option>
+                <option value="MN">MN</option>
+                <option value="MS">MS</option>
+                <option value="MO">MO</option>
+                <option value="MT">MT</option>
+                <option value="NE">NE</option>
+                <option value="NV">NV</option>
+                <option value="NH">NH</option>
+                <option value="NJ">NJ</option>
+                <option value="NM">NM</option>
+                <option value="NY">NY</option>
+                <option value="NC">NC</option>
+                <option value="ND">ND</option>
+                <option value="OH">OH</option>
+                <option value="OK">OK</option>
+                <option value="OR">OR</option>
+                <option value="PA">PA</option>
+                <option value="RI">RI</option>
+                <option value="SC">SC</option>
+                <option value="SD">SD</option>
+                <option value="TN">TN</option>
+                <option value="TX">TX</option>
+                <option value="UT">UT</option>
+                <option value="VT">VT</option>
+                <option value="VA">VA</option>
+                <option value="WA">WA</option>
+                <option value="WV">WV</option>
+                <option value="WI">WI</option>
+                <option value="WY">WY</option>
+
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="text-two">
+          <div class="text-ipt">
+            <label for="pla_code" data-bind="text: d_pla_code"></label>
+            <input type="text" data-bind="value: zipCode, attr: {'placeholder': ''}">
+          </div> 
+          <div class="text-ipt">
+            <label class="text-cen" for="pla_phone" data-bind="text: d_pla_phone"></label>
+            <input type="text" data-bind="value: adderPhone, attr: {'placeholder': ''}">
+          </div>
+        </div>
+        <div class="btn">
+          <input id="sub" type="button" data-bind="value: d_save">
+        </div>
+      </div>
+      <div class="item_box">
+        <div class="top_title">
+          <div class="pre_btn">&lt;&lt;</div>
+          <div class="text" data-bind="text: d_address_two"></div>
+          <div class="next_btn">&gt;&gt;</div>
+        </div>
+        <div class="text-ipt">
+          <label for="pla_address" data-bind="text: d_pla_address"></label>
+          <input type="text" data-bind="value: address_1, attr: {'placeholder': ''}">
+        </div>
+        <div class="text-ipt">
+          <label for="pla_name" data-bind="text: d_pla_name"></label>
+          <input type="text" data-bind="value: name_1, attr: {'placeholder': ''}">
+        </div>
+        <div class="text-ipt">
+          <label for="pla_street" data-bind="text: d_pla_street"></label>
+          <input type="text" data-bind="value: street_1, attr: {'placeholder': ''}">
+        </div>
+        <div class="text-ipt">
+          <label for="detail_address" data-bind="text: d_detail_address"></label>
+          <input type="text" data-bind="value: detail_1, attr: {'placeholder': d_pla_unit}">
+        </div>
+        <div class="text-two">
+          <div class="text-ipt">
+            <label for="pla_city" data-bind="text: d_pla_city"></label>
+            <input type="text" data-bind="value: city_1, attr: {'placeholder': ''}">
+          </div> 
+          <div class="text-ipt">
+            <label class="text-cen" for="pla_code" data-bind="text: d_state"></label>
+            <div class="select">
+              <div id="statueDisplay2" class="text" data-bind="">
+              </div>
+              <div class="icon"></div>
+              <select data-bind="value: statue_1">
+                <option value="AL">AL</option>
+                <option value="AK">AK</option>
+                <option value="AZ">AZ</option>
+                <option value="AR">AR</option>
+                <option value="CA">CA</option>
+                <option value="CO">CO</option>
+                <option value="CT">CT</option>
+                <option value="DE">DE</option>
+                <option value="DC">DC</option>
+                <option value="FL">FL</option>
+                <option value="GA">GA</option>
+                <option value="HI">HI</option>
+                <option value="ID">ID</option>
+                <option value="IL">IL</option>
+                <option value="IN">IN</option>
+                <option value="IA">IA</option>
+                <option value="KS">KS</option>
+                <option value="KY">KY</option>
+                <option value="LA">LA</option>
+                <option value="ME">ME</option>
+                <option value="MD">MD</option>
+                <option value="MA">MA</option>
+                <option value="MI">MI</option>
+                <option value="MN">MN</option>
+                <option value="MS">MS</option>
+                <option value="MO">MO</option>
+                <option value="MT">MT</option>
+                <option value="NE">NE</option>
+                <option value="NV">NV</option>
+                <option value="NH">NH</option>
+                <option value="NJ">NJ</option>
+                <option value="NM">NM</option>
+                <option value="NY">NY</option>
+                <option value="NC">NC</option>
+                <option value="ND">ND</option>
+                <option value="OH">OH</option>
+                <option value="OK">OK</option>
+                <option value="OR">OR</option>
+                <option value="PA">PA</option>
+                <option value="RI">RI</option>
+                <option value="SC">SC</option>
+                <option value="SD">SD</option>
+                <option value="TN">TN</option>
+                <option value="TX">TX</option>
+                <option value="UT">UT</option>
+                <option value="VT">VT</option>
+                <option value="VA">VA</option>
+                <option value="WA">WA</option>
+                <option value="WV">WV</option>
+                <option value="WI">WI</option>
+                <option value="WY">WY</option>
+
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="text-two">
+          <div class="text-ipt">
+            <label for="pla_code" data-bind="text: d_pla_code"></label>
+            <input type="text" data-bind="value: zipCode_1, attr: {'placeholder': ''}">
+          </div>
+          <div class="text-ipt">
+            <label class="text-cen" for="pla_phone" data-bind="text: d_pla_phone"></label>
+            <input type="text" data-bind="value: adderPhone_1, attr: {'placeholder': ''}">
+          </div>
+        </div>
+        <div class="btn">
+          <input id="sub" type="button" data-bind="value: d_save">
+        </div>
+      </div>
+      <div class="item_box">
+        <div class="top_title">
+          <div class="pre_btn">&lt;&lt;</div>
+          <div class="text" data-bind="text: d_address_thrid"></div>
+          <div class=""></div>
+        </div>
+        <div class="text-ipt">
+          <label for="pla_address" data-bind="text: d_pla_address"></label>
+          <input type="text" data-bind="value: address_2, attr: {'placeholder': ''}">
+        </div>
+        <div class="text-ipt">
+          <label for="pla_name" data-bind="text: d_pla_name"></label>
+          <input type="text" data-bind="value: name_2, attr: {'placeholder': ''}">
+        </div>
+        <div class="text-ipt">
+          <label for="pla_street" data-bind="text: d_pla_street"></label>
+          <input type="text" data-bind="value: street_2, attr: {'placeholder': ''}">
+        </div>
+        <div class="text-ipt">
+          <label for="detail_address" data-bind="text: d_detail_address"></label>
+          <input type="text" data-bind="value: detail_2, attr: {'placeholder': d_pla_unit}">
+        </div>
+        <div class="text-two">
+          <div class="text-ipt">
+            <label for="pla_city" data-bind="text: d_pla_city"></label>
+            <input type="text" data-bind="value: city_2, attr: {'placeholder': ''}">
+          </div> 
+          <div class="text-ipt">
+            <label class="text-cen" for="pla_code" data-bind="text: d_state"></label>
+            <div class="select">
+              <div id="statueDisplay3" class="text" data-bind="">
+              </div>
+              <div class="icon"></div>
+              <select data-bind="value: statue_2">
+                <option value="AL">AL</option>
+                <option value="AK">AK</option>
+                <option value="AZ">AZ</option>
+                <option value="AR">AR</option>
+                <option value="CA">CA</option>
+                <option value="CO">CO</option>
+                <option value="CT">CT</option>
+                <option value="DE">DE</option>
+                <option value="DC">DC</option>
+                <option value="FL">FL</option>
+                <option value="GA">GA</option>
+                <option value="HI">HI</option>
+                <option value="ID">ID</option>
+                <option value="IL">IL</option>
+                <option value="IN">IN</option>
+                <option value="IA">IA</option>
+                <option value="KS">KS</option>
+                <option value="KY">KY</option>
+                <option value="LA">LA</option>
+                <option value="ME">ME</option>
+                <option value="MD">MD</option>
+                <option value="MA">MA</option>
+                <option value="MI">MI</option>
+                <option value="MN">MN</option>
+                <option value="MS">MS</option>
+                <option value="MO">MO</option>
+                <option value="MT">MT</option>
+                <option value="NE">NE</option>
+                <option value="NV">NV</option>
+                <option value="NH">NH</option>
+                <option value="NJ">NJ</option>
+                <option value="NM">NM</option>
+                <option value="NY">NY</option>
+                <option value="NC">NC</option>
+                <option value="ND">ND</option>
+                <option value="OH">OH</option>
+                <option value="OK">OK</option>
+                <option value="OR">OR</option>
+                <option value="PA">PA</option>
+                <option value="RI">RI</option>
+                <option value="SC">SC</option>
+                <option value="SD">SD</option>
+                <option value="TN">TN</option>
+                <option value="TX">TX</option>
+                <option value="UT">UT</option>
+                <option value="VT">VT</option>
+                <option value="VA">VA</option>
+                <option value="WA">WA</option>
+                <option value="WV">WV</option>
+                <option value="WI">WI</option>
+                <option value="WY">WY</option>
+
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="text-two">
+          <div class="text-ipt">
+            <label for="pla_code" data-bind="text: d_pla_code"></label>
+            <input type="text" data-bind="value: zipCode_2, attr: {'placeholder': ''}">
+          </div> 
+          <div class="text-ipt">
+            <label class="text-cen" for="pla_phone" data-bind="text: d_pla_phone"></label>
+            <input type="text" data-bind="value: adderPhone_2, attr: {'placeholder': ''}">
+          </div>
+        </div>
+        <div class="btn">
+          <input id="sub" type="button" data-bind="value: d_save">
+        </div>
+      </div>
+      </div>
+    </section>
+  </div>
+  <script src="js/appcan.js"></script>
+  <script src="js/appcan.control.js"></script>
+  <script src="js/app/common.js"></script>
+  <script src="js/app/address.js"></script>
+</body>
+</html>

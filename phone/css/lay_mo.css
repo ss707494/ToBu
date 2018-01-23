@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{line-height:24px;font:14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif; margin:0; padding:0; background:#F5F5F5;}
+blockquote,body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0;}
+
+/* 登录 */
+.top_login { text-align:right; font-size:1.5rem; line-height:3.5rem; padding-right:5%; color:#E81767; background:#FFF;}
+.top_login a { color:#E81767; text-decoration:underline;}
+.logo { width:16%; padding:0 42%; padding-bottom:2%; border-bottom:1px solid #EBEBEB; margin-bottom:2%; background:#FFF;}
+.logo img { width:100%}
+.logo_bt { font-size:3.8rem; line-height:3rem; text-align:center; color:#E81767; border-bottom:1px solid #EBEBEB; }
+.input_bianju {}
+.input_kuang  { margin:5% 5% 0 5%;  }
+.input_xs { width:97%; line-height:3rem; font-size:1.2rem; font-family:Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif; padding-left:2%; color:#9B9B9B; border: 1px solid #CCC; }
+.anniu_bk { padding:5% 5% 0 5%; margin-top:5%; border-top:1px solid #EBEBEB;  }
+.anniu_xs { width:100%; line-height:2.1rem; font-size:2rem; font-family:Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif; color:#FFF; background:#E81767; border:0; margin:0; padding:0; border-radius:5px;}
+.banben_hao { text-align:center; color:#ED1C24; line-height:5rem; font-size:1.2rem}
+.di_wei { font-size:1.2rem; color:#E81767; line-height:2rem; position: fixed; bottom: 0; width:100%;}
+.di_wei a { color:#E81767; text-decoration:none;}
+.di_left { float:left; padding-left:1%}
+.di_right { float:right; padding-right:1%;}
+
+/* 注册 */
+.zhuce_top { line-height:3rem; text-align:center; position: fixed; background:#FFF; font-size:1.5rem; border-bottom:1px solid #EBEBEB; width:100%; z-index: 301;}
+.fanhui_zc { position:absolute; top:1rem; left:1rem }
+.fanhui_zc img {  height:1rem;}
+.zhuce_neirong { margin:5% 5% 0 5%;}
+.nr_bk { padding-bottom:5%; line-height:3.5rem; overflow:hidden;}
+.nr_bk_left { width:20%; float:left; font-size:1.4rem;}
+.nr_bk_rigt { width:80%; float:right;}
+.yanzheng_bk { }
+.yanzheng_left { width:70%; float:left;}
+.yanzheng_right { width:25%; float:right; text-align:right;}
+.yanzheng_right img { height:3.5rem;}
+.shouhuo_dizhi { font-size:1.2rem; line-height:3.5rem;}
+.dizhi_bk { border:3px solid #7F7F7F; padding:4% 4% 0 4%;}
+.dizhi_txt { margin-bottom:4%;}
+.dizhi_left { float:left; width:48%;}
+.dizhi_right { float:right; width:48%;}
+.dizhi_zhou { float:left; font-size:1.2rem; line-height:3.5rem}
+.dizhi_zhouyou { float:right; width:80%}
+.input_zhou { width:97%; line-height:3rem; font-size:1.2rem; height:3rem; font-family:Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif; padding-left:2%; color:#9B9B9B; border: 1px solid #CCC; }
+.zhuce_tj { margin:5% 0; border-top:1px solid #EBEBEB;  }
+.input_zxgai { width:96%; line-height:3rem; font-size:1.2rem; font-family:Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif; padding-left:2%; color:#9B9B9B; border: 1px solid #CCC; }
+
+
+/* 注册成功 */
+.go_index { font-size:1.5rem; color:#FFF; background:#E81767; line-height:3.5rem; text-align:center; position: fixed; bottom: 0; width:100%;}
+.go_index a { color:#FFF; text-decoration:none;}
+.cg_zhuce { text-align:center; font-size:1.35rem; line-height:3.5rem;}
+.cg_bianju {}
+.cg_bianju span { padding:0 0.5rem;}
+.red_cg { color:#E81767}
+.cg_tu { width:25%; margin:0 auto; padding:10% 0 5% 0;}
+.cg_tu img { width:100%;}
+
+/* 地址管理 */
+.dizhiguanli_bk { margin:0 4% 0 4%;}
+.diyi_dizhi { font-size:1.4rem; line-height:5rem; padding:0 4%; }
+.diyi_dizhi p { float:left;}
+.diyi_dizhi span { float:right; display:block;}
+.dizhi2_left { width:20%; float:left; font-size:1.4rem;}
+.dizhi2_input { width:31%; float:left;}
+.dizhi2_txt { width:15%; float:left;  font-size:1.4rem; text-align:center;}
+.dizhi2_input2 { width:31%; float:right;}
+.dizhi_tj { margin:0 4% 0 4%; border-top:1px solid #EBEBEB;  }
+.dizhi_xiahuaxian { padding-bottom:3%; line-height:3.5rem; overflow:hidden; border-bottom:1px solid #EBEBEB; margin-bottom:3%}
+
+/* 基本信息 */
+.jibenxinxi_bk {}
+
+/* 信用卡 */
+.youzheng_left { width:35%; float:left;}
+.youzheng_right { width:35%; float:right;}

@@ -1,0 +1,957 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.000  000.000: --- VIM STARTING ---
+000.000  000.000: Allocated generic buffers
+004.000  004.000: locale set
+004.000  000.000: clipboard setup
+004.000  000.000: window checked
+005.000  001.000: inits 1
+014.000  009.000: parsing arguments
+015.000  001.000: expanding arguments
+026.000  011.000: shell init
+026.000  000.000: Termcap init
+026.000  000.000: inits 2
+027.000  001.000: init highlight
+029.000  000.000  000.000: sourcing C:\Users\sshen/.vimrc.before.fork
+030.000  001.000  001.000: sourcing C:\Users\sshen/.vimrc.before
+033.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\ftoff.vim
+035.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vundle\autoload\vundle.vim
+037.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vundle\autoload\vundle\config.vim
+186.000  013.000  013.000: sourcing C:\Users\sshen/.vimrc.bundles.fork
+187.000  157.000  144.000: sourcing C:\Users\sshen/.vimrc.bundles
+237.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neosnippet\ftdetect\neosnippet.vim
+239.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-json\ftdetect\json.vim
+241.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\ftdetect\less.vim
+242.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\ftdetect\javascript.vim
+243.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-jst\ftdetect\jst.vim
+245.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\ftdetect\coffee.vim
+246.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\ftdetect\vim-literate-coffeescript.vim
+248.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-haml\ftdetect\haml.vim
+249.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\rust.vim\ftdetect\rust.vim
+251.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-markdown\ftdetect\markdown.vim
+252.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-cucumber\ftdetect\cucumber.vim
+255.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-toml\ftdetect\toml.vim
+257.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\salt-vim\ftdetect\sls.vim
+258.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\tern_for_vim\ftdetect\tern.vim
+262.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\neosnippet\ftdetect\neosnippet.vim
+263.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-json\ftdetect\json.vim
+264.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\ftdetect\less.vim
+266.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\ftdetect\javascript.vim
+267.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-jst\ftdetect\jst.vim
+269.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\ftdetect\coffee.vim
+271.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\ftdetect\vim-literate-coffeescript.vim
+273.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-haml\ftdetect\haml.vim
+274.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\rust.vim\ftdetect\rust.vim
+276.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-markdown\ftdetect\markdown.vim
+277.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-cucumber\ftdetect\cucumber.vim
+278.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-toml\ftdetect\toml.vim
+280.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\salt-vim\ftdetect\sls.vim
+290.000  084.000  081.000: sourcing C:\Program Files (x86)\vim\vim80\filetype.vim
+317.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\ftplugin.vim
+346.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\indent.vim
+386.000  003.000  003.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\syncolor.vim
+398.000  027.000  024.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\synload.vim
+398.000  040.000  013.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\syntax.vim
+490.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\syncolor.vim
+520.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\syncolor.vim
+538.000  063.000  062.000: sourcing C:\Users\sshen\.vim\bundle\vim-colors-solarized\colors\solarized.vim
+718.000  002.000  002.000: sourcing C:\Users\sshen/.vimrc.fork
+718.000  690.000  343.000: sourcing $HOME\_vimrc
+718.000  001.000: sourcing vimrc file(s)
+721.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\tlib_vim\plugin\02tlib.vim
+723.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ack.vim\plugin\ack.vim
+728.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\autoload\nerdtree.vim
+731.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\path.vim
+733.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\menu_controller.vim
+735.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\menu_item.vim
+739.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\key_map.vim
+741.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\bookmark.vim
+743.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\tree_file_node.vim
+745.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\tree_dir_node.vim
+747.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\opener.vim
+749.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\creator.vim
+751.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\flag_set.vim
+756.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\nerdtree.vim
+760.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\ui.vim
+763.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\event.vim
+765.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\notifier.vim
+768.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\autoload\nerdtree\ui_glue.vim
+808.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\nerdtree_plugin\exec_menuitem.vim
+810.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\nerdtree_plugin\fs_menu.vim
+814.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-nerdtree-tabs\nerdtree_plugin\vim-nerdtree-tabs.vim
+821.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\nerdtree_plugin\exec_menuitem.vim
+822.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\nerdtree_plugin\fs_menu.vim
+826.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-nerdtree-tabs\nerdtree_plugin\vim-nerdtree-tabs.vim
+842.000  117.000  102.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\plugin\NERD_tree.vim
+845.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-surround\plugin\surround.vim
+848.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\conflict-marker.vim\plugin\conflict_marker.vim
+850.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\auto-pairs\plugin\auto-pairs.vim
+855.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp.vim\autoload\ctrlp\mrufiles.vim
+856.000  005.000  005.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp.vim\plugin\ctrlp.vim
+857.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp-funky\plugin\funky.vim
+860.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-multiple-cursors\plugin\multiple_cursors.vim
+862.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\matchit.zip\plugin\matchit.vim
+867.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline.vim
+871.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\init.vim
+874.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\parts.vim
+875.000  011.000  011.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\plugin\airline.vim
+877.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline-themes\plugin\airline-themes.vim
+882.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-bufferline\autoload\bufferline.vim
+883.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\vim-bufferline\plugin\bufferline.vim
+896.000  012.000  012.000: sourcing C:\Users\sshen\.vim\bundle\vim-easymotion\plugin\EasyMotion.vim
+899.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\undotree\plugin\undotree.vim
+906.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-indent-guides\autoload\indent_guides.vim
+906.000  006.000  005.000: sourcing C:\Users\sshen\.vim\bundle\vim-indent-guides\plugin\indent_guides.vim
+908.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\restore_view.vim\plugin\restore_view.vim
+910.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-signify\plugin\signify.vim
+913.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-abolish\plugin\abolish.vim
+915.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-over\plugin\over.vim
+923.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-user\autoload\textobj\user.vim
+927.000  010.000  008.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-indent\plugin\textobj\indent.vim
+932.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\wildfire.vim\autoload\wildfire\triggers.vim
+933.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\wildfire.vim\plugin\wildfire.vim
+934.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-litecorrect\plugin\litecorrect.vim
+936.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-sentence\plugin\textobj\sentence.vim
+939.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-quote\plugin\textobj\quote.vim
+941.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-wordy\plugin\wordy.vim
+947.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\autoloclist.vim
+948.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\balloons.vim
+949.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\checker.vim
+950.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\cursor.vim
+951.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\highlighting.vim
+954.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\loclist.vim
+955.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\modemap.vim
+956.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\notifiers.vim
+958.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\registry.vim
+959.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\signs.vim
+966.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\autoload\syntastic\util.vim
+973.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\autoloclist.vim
+974.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\balloons.vim
+976.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\checker.vim
+977.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\cursor.vim
+978.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\highlighting.vim
+980.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\loclist.vim
+981.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\modemap.vim
+982.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\notifiers.vim
+984.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\registry.vim
+985.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\signs.vim
+992.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\autoloclist.vim
+993.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\balloons.vim
+994.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\checker.vim
+995.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\cursor.vim
+996.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\highlighting.vim
+997.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\loclist.vim
+998.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\modemap.vim
+999.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\notifiers.vim
+1000.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\registry.vim
+1001.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\signs.vim
+1013.000  053.000  048.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic.vim
+1043.000  029.000  029.000: sourcing C:\Users\sshen\.vim\bundle\vim-fugitive\plugin\fugitive.vim
+1045.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\gist-vim\plugin\gist.vim
+1056.000  010.000  010.000: sourcing C:\Users\sshen\.vim\bundle\nerdcommenter\plugin\NERD_commenter.vim
+1058.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-commentary\plugin\commentary.vim
+1060.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\tabular\plugin\Tabular.vim
+1087.000  026.000  026.000: sourcing C:\Users\sshen\.vim\bundle\rainbow\plugin\rainbow.vim
+1091.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\buffer.vim
+1092.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\dictionary.vim
+1093.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\member.vim
+1094.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\tag.vim
+1096.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete.vim
+1098.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\neosnippet\plugin\neosnippet.vim
+1099.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-snippets\plugin\vimsnippets.vim
+1107.000  006.000  006.000: sourcing C:\Users\sshen\.vim\bundle\emmet-vim\plugin\emmet.vim
+1109.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\rust.vim\plugin\rust.vim
+1192.000  082.000  082.000: sourcing C:\Users\sshen\.vim\bundle\vim-preview\plugin\preview.vim
+1194.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-cucumber-align-pipes\plugin\cucumber-align-pipes.vim
+1202.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\autoload\xolox\misc.vim
+1211.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\autoload\xolox\misc\os.vim
+1222.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\autoload\xolox\misc\cursorhold.vim
+1222.000  026.000  025.000: sourcing C:\Users\sshen\.vim\bundle\vim-session\plugin\session.vim
+1224.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\plugin\xolox\misc.vim
+1226.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\tlib_vim\plugin\02tlib.vim
+1227.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ack.vim\plugin\ack.vim
+1228.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\plugin\NERD_tree.vim
+1230.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-surround\plugin\surround.vim
+1231.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\conflict-marker.vim\plugin\conflict_marker.vim
+1232.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\auto-pairs\plugin\auto-pairs.vim
+1234.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp.vim\plugin\ctrlp.vim
+1236.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp-funky\plugin\funky.vim
+1239.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-multiple-cursors\plugin\multiple_cursors.vim
+1240.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\matchit.zip\plugin\matchit.vim
+1242.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\plugin\airline.vim
+1243.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline-themes\plugin\airline-themes.vim
+1244.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-bufferline\plugin\bufferline.vim
+1246.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-easymotion\plugin\EasyMotion.vim
+1247.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\undotree\plugin\undotree.vim
+1249.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-indent-guides\plugin\indent_guides.vim
+1250.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\restore_view.vim\plugin\restore_view.vim
+1252.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-signify\plugin\signify.vim
+1254.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-abolish\plugin\abolish.vim
+1256.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-over\plugin\over.vim
+1257.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-indent\plugin\textobj\indent.vim
+1259.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\wildfire.vim\plugin\wildfire.vim
+1260.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-litecorrect\plugin\litecorrect.vim
+1262.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-sentence\plugin\textobj\sentence.vim
+1263.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-quote\plugin\textobj\quote.vim
+1265.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-wordy\plugin\wordy.vim
+1273.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\autoloclist.vim
+1274.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\balloons.vim
+1275.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\checker.vim
+1275.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\cursor.vim
+1276.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\highlighting.vim
+1277.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\loclist.vim
+1278.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\modemap.vim
+1279.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\notifiers.vim
+1280.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\registry.vim
+1281.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\signs.vim
+1282.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic.vim
+1283.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-fugitive\plugin\fugitive.vim
+1284.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\gist-vim\plugin\gist.vim
+1286.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdcommenter\plugin\NERD_commenter.vim
+1288.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-commentary\plugin\commentary.vim
+1290.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\tabular\plugin\Tabular.vim
+1291.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\rainbow\plugin\rainbow.vim
+1294.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\buffer.vim
+1295.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\dictionary.vim
+1296.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\member.vim
+1297.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\tag.vim
+1298.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete.vim
+1299.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neosnippet\plugin\neosnippet.vim
+1301.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-snippets\plugin\vimsnippets.vim
+1304.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\emmet-vim\plugin\emmet.vim
+1305.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\rust.vim\plugin\rust.vim
+1307.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-preview\plugin\preview.vim
+1308.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-cucumber-align-pipes\plugin\cucumber-align-pipes.vim
+1309.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vimfiles\plugin\vimcdoc.vim
+1313.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\getscriptPlugin.vim
+1314.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\gzip.vim
+1315.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\logiPat.vim
+1315.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\manpager.vim
+1316.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\matchparen.vim
+1318.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\netrwPlugin.vim
+1319.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\rrhelper.vim
+1320.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\spellfile.vim
+1321.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\tarPlugin.vim
+1322.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\tohtml.vim
+1323.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\vimballPlugin.vim
+1324.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\zipPlugin.vim
+1324.000  184.000: loading plugins
+1325.000  001.000: loading packages
+1335.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\tabular\autoload\tabular.vim
+1339.000  010.000  009.000: sourcing C:\Users\sshen\.vim\bundle\tabular\after\plugin\TabularMaps.vim
+1348.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\tabular\after\plugin\TabularMaps.vim
+1350.000  012.000: loading after plugins
+1350.000  000.000: inits 3
+1352.000  002.000: reading viminfo
+1356.000  004.000: setting raw mode
+1374.000  018.000: start termcap
+1374.000  000.000: clearing screen
+34243.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp.vim\autoload\ctrlp\utils.vim
+34258.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions.vim
+34262.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\quickfix.vim
+34267.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\netrw.vim
+34271.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\ctrlp.vim
+34275.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\undotree.vim
+34277.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\hunks.vim
+34281.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\branch.vim
+34284.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\bufferline.vim
+34287.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\syntastic.vim
+34289.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\whitespace.vim
+34298.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\wordcount.vim
+34301.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\keymap.vim
+34366.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\section.vim
+34368.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\highlighter.vim
+34378.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\themes.vim
+34378.000  003.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline-themes\autoload\airline\themes\solarized.vim
+34391.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\msdos.vim
+34426.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\util.vim
+34437.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\builder.vim
+34440.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\default.vim
+34507.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-session\autoload\xolox\session.vim
+34513.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\autoload\xolox\misc\option.vim
+34521.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\autoload\xolox\misc\path.vim
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.000  000.000: --- VIM STARTING ---
+000.000  000.000: Allocated generic buffers
+003.000  003.000: locale set
+003.000  000.000: clipboard setup
+003.000  000.000: window checked
+003.000  000.000: inits 1
+013.000  010.000: parsing arguments
+014.000  001.000: expanding arguments
+024.000  010.000: shell init
+025.000  001.000: Termcap init
+025.000  000.000: inits 2
+025.000  000.000: init highlight
+028.000  000.000  000.000: sourcing C:\Users\sshen/.vimrc.before.fork
+028.000  001.000  001.000: sourcing C:\Users\sshen/.vimrc.before
+031.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\ftoff.vim
+033.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vundle\autoload\vundle.vim
+035.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vundle\autoload\vundle\config.vim
+175.000  014.000  014.000: sourcing C:\Users\sshen/.vimrc.bundles.fork
+175.000  146.000  131.000: sourcing C:\Users\sshen/.vimrc.bundles
+219.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\neosnippet\ftdetect\neosnippet.vim
+220.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-json\ftdetect\json.vim
+221.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\ftdetect\less.vim
+223.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\ftdetect\javascript.vim
+225.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-jst\ftdetect\jst.vim
+227.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\ftdetect\coffee.vim
+228.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\ftdetect\vim-literate-coffeescript.vim
+230.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-haml\ftdetect\haml.vim
+231.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\rust.vim\ftdetect\rust.vim
+233.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-markdown\ftdetect\markdown.vim
+234.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-cucumber\ftdetect\cucumber.vim
+235.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-toml\ftdetect\toml.vim
+236.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\salt-vim\ftdetect\sls.vim
+238.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\tern_for_vim\ftdetect\tern.vim
+242.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neosnippet\ftdetect\neosnippet.vim
+244.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-json\ftdetect\json.vim
+245.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\ftdetect\less.vim
+246.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\ftdetect\javascript.vim
+247.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-jst\ftdetect\jst.vim
+249.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\ftdetect\coffee.vim
+250.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\ftdetect\vim-literate-coffeescript.vim
+252.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-haml\ftdetect\haml.vim
+254.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\rust.vim\ftdetect\rust.vim
+255.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-markdown\ftdetect\markdown.vim
+258.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-cucumber\ftdetect\cucumber.vim
+260.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-toml\ftdetect\toml.vim
+261.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\salt-vim\ftdetect\sls.vim
+267.000  076.000  070.000: sourcing C:\Program Files (x86)\vim\vim80\filetype.vim
+298.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\ftplugin.vim
+322.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\indent.vim
+363.000  003.000  003.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\syncolor.vim
+380.000  035.000  032.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\synload.vim
+380.000  048.000  013.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\syntax.vim
+474.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\syncolor.vim
+498.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\syncolor.vim
+513.000  052.000  050.000: sourcing C:\Users\sshen\.vim\bundle\vim-colors-solarized\colors\solarized.vim
+685.000  002.000  002.000: sourcing C:\Users\sshen/.vimrc.fork
+685.000  659.000  334.000: sourcing $HOME\_vimrc
+685.000  001.000: sourcing vimrc file(s)
+687.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\tlib_vim\plugin\02tlib.vim
+689.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\ack.vim\plugin\ack.vim
+694.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\autoload\nerdtree.vim
+697.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\path.vim
+699.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\menu_controller.vim
+701.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\menu_item.vim
+702.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\key_map.vim
+704.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\bookmark.vim
+707.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\tree_file_node.vim
+710.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\tree_dir_node.vim
+711.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\opener.vim
+713.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\creator.vim
+715.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\flag_set.vim
+716.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\nerdtree.vim
+718.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\ui.vim
+720.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\event.vim
+721.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\lib\nerdtree\notifier.vim
+725.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\autoload\nerdtree\ui_glue.vim
+763.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\nerdtree_plugin\exec_menuitem.vim
+766.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\nerdtree_plugin\fs_menu.vim
+771.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-nerdtree-tabs\nerdtree_plugin\vim-nerdtree-tabs.vim
+778.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\nerdtree_plugin\exec_menuitem.vim
+779.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\nerdtree_plugin\fs_menu.vim
+782.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-nerdtree-tabs\nerdtree_plugin\vim-nerdtree-tabs.vim
+798.000  107.000  099.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\plugin\NERD_tree.vim
+800.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-surround\plugin\surround.vim
+802.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\conflict-marker.vim\plugin\conflict_marker.vim
+805.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\auto-pairs\plugin\auto-pairs.vim
+810.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp.vim\autoload\ctrlp\mrufiles.vim
+810.000  003.000  002.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp.vim\plugin\ctrlp.vim
+812.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp-funky\plugin\funky.vim
+814.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-multiple-cursors\plugin\multiple_cursors.vim
+816.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\matchit.zip\plugin\matchit.vim
+820.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline.vim
+824.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\init.vim
+827.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\parts.vim
+828.000  011.000  011.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\plugin\airline.vim
+830.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline-themes\plugin\airline-themes.vim
+834.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-bufferline\autoload\bufferline.vim
+835.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\vim-bufferline\plugin\bufferline.vim
+847.000  011.000  011.000: sourcing C:\Users\sshen\.vim\bundle\vim-easymotion\plugin\EasyMotion.vim
+849.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\undotree\plugin\undotree.vim
+854.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-indent-guides\autoload\indent_guides.vim
+855.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\vim-indent-guides\plugin\indent_guides.vim
+858.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\restore_view.vim\plugin\restore_view.vim
+860.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-signify\plugin\signify.vim
+863.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-abolish\plugin\abolish.vim
+865.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-over\plugin\over.vim
+872.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-user\autoload\textobj\user.vim
+877.000  010.000  008.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-indent\plugin\textobj\indent.vim
+883.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\wildfire.vim\autoload\wildfire\triggers.vim
+883.000  004.000  003.000: sourcing C:\Users\sshen\.vim\bundle\wildfire.vim\plugin\wildfire.vim
+885.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-litecorrect\plugin\litecorrect.vim
+887.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-sentence\plugin\textobj\sentence.vim
+891.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-quote\plugin\textobj\quote.vim
+893.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-wordy\plugin\wordy.vim
+899.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\autoloclist.vim
+900.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\balloons.vim
+901.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\checker.vim
+902.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\cursor.vim
+903.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\highlighting.vim
+904.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\loclist.vim
+905.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\modemap.vim
+907.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\notifiers.vim
+908.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\registry.vim
+909.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\signs.vim
+916.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\autoload\syntastic\util.vim
+922.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\autoloclist.vim
+924.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\balloons.vim
+926.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\checker.vim
+928.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\cursor.vim
+929.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\highlighting.vim
+931.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\loclist.vim
+932.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\modemap.vim
+933.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\notifiers.vim
+935.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\registry.vim
+936.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\signs.vim
+944.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\autoloclist.vim
+945.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\balloons.vim
+946.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\checker.vim
+947.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\cursor.vim
+948.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\highlighting.vim
+948.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\loclist.vim
+949.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\modemap.vim
+950.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\notifiers.vim
+951.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\registry.vim
+952.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\signs.vim
+962.000  052.000  047.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic.vim
+1002.000  039.000  039.000: sourcing C:\Users\sshen\.vim\bundle\vim-fugitive\plugin\fugitive.vim
+1004.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\gist-vim\plugin\gist.vim
+1015.000  010.000  010.000: sourcing C:\Users\sshen\.vim\bundle\nerdcommenter\plugin\NERD_commenter.vim
+1017.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-commentary\plugin\commentary.vim
+1019.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\tabular\plugin\Tabular.vim
+1043.000  023.000  023.000: sourcing C:\Users\sshen\.vim\bundle\rainbow\plugin\rainbow.vim
+1046.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\buffer.vim
+1047.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\dictionary.vim
+1048.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\member.vim
+1049.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\tag.vim
+1050.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete.vim
+1052.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neosnippet\plugin\neosnippet.vim
+1054.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-snippets\plugin\vimsnippets.vim
+1061.000  006.000  006.000: sourcing C:\Users\sshen\.vim\bundle\emmet-vim\plugin\emmet.vim
+1063.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\rust.vim\plugin\rust.vim
+1147.000  083.000  083.000: sourcing C:\Users\sshen\.vim\bundle\vim-preview\plugin\preview.vim
+1149.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-cucumber-align-pipes\plugin\cucumber-align-pipes.vim
+1156.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\autoload\xolox\misc.vim
+1164.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\autoload\xolox\misc\os.vim
+1172.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\autoload\xolox\misc\cursorhold.vim
+1173.000  023.000  023.000: sourcing C:\Users\sshen\.vim\bundle\vim-session\plugin\session.vim
+1176.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-misc\plugin\xolox\misc.vim
+1178.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\tlib_vim\plugin\02tlib.vim
+1179.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ack.vim\plugin\ack.vim
+1181.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdtree\plugin\NERD_tree.vim
+1183.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-surround\plugin\surround.vim
+1184.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\conflict-marker.vim\plugin\conflict_marker.vim
+1186.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\auto-pairs\plugin\auto-pairs.vim
+1187.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp.vim\plugin\ctrlp.vim
+1188.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp-funky\plugin\funky.vim
+1191.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-multiple-cursors\plugin\multiple_cursors.vim
+1193.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\matchit.zip\plugin\matchit.vim
+1194.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\plugin\airline.vim
+1196.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline-themes\plugin\airline-themes.vim
+1198.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-bufferline\plugin\bufferline.vim
+1200.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-easymotion\plugin\EasyMotion.vim
+1201.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\undotree\plugin\undotree.vim
+1203.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-indent-guides\plugin\indent_guides.vim
+1204.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\restore_view.vim\plugin\restore_view.vim
+1205.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-signify\plugin\signify.vim
+1207.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-abolish\plugin\abolish.vim
+1209.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-over\plugin\over.vim
+1211.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-indent\plugin\textobj\indent.vim
+1212.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\wildfire.vim\plugin\wildfire.vim
+1213.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-litecorrect\plugin\litecorrect.vim
+1216.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-sentence\plugin\textobj\sentence.vim
+1218.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-textobj-quote\plugin\textobj\quote.vim
+1219.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-wordy\plugin\wordy.vim
+1226.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\autoloclist.vim
+1227.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\balloons.vim
+1228.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\checker.vim
+1228.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\cursor.vim
+1229.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\highlighting.vim
+1230.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\loclist.vim
+1231.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\modemap.vim
+1232.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\notifiers.vim
+1233.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\registry.vim
+1234.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic\signs.vim
+1235.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\plugin\syntastic.vim
+1236.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-fugitive\plugin\fugitive.vim
+1237.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\gist-vim\plugin\gist.vim
+1238.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\nerdcommenter\plugin\NERD_commenter.vim
+1240.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-commentary\plugin\commentary.vim
+1242.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\tabular\plugin\Tabular.vim
+1244.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\rainbow\plugin\rainbow.vim
+1247.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\buffer.vim
+1248.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\dictionary.vim
+1249.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\member.vim
+1250.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete\tag.vim
+1250.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neocomplete.vim\plugin\neocomplete.vim
+1252.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\neosnippet\plugin\neosnippet.vim
+1253.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-snippets\plugin\vimsnippets.vim
+1255.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\emmet-vim\plugin\emmet.vim
+1257.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\rust.vim\plugin\rust.vim
+1260.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-preview\plugin\preview.vim
+1261.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-cucumber-align-pipes\plugin\cucumber-align-pipes.vim
+1262.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vimfiles\plugin\vimcdoc.vim
+1266.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\getscriptPlugin.vim
+1267.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\gzip.vim
+1268.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\logiPat.vim
+1269.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\manpager.vim
+1270.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\matchparen.vim
+1271.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\netrwPlugin.vim
+1272.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\rrhelper.vim
+1273.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\spellfile.vim
+1277.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\tarPlugin.vim
+1278.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\tohtml.vim
+1280.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\vimballPlugin.vim
+1284.000  003.000  003.000: sourcing C:\Program Files (x86)\vim\vim80\plugin\zipPlugin.vim
+1284.000  185.000: loading plugins
+1285.000  001.000: loading packages
+1297.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\tabular\autoload\tabular.vim
+1300.000  009.000  008.000: sourcing C:\Users\sshen\.vim\bundle\tabular\after\plugin\TabularMaps.vim
+1311.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\tabular\after\plugin\TabularMaps.vim
+1313.000  015.000: loading after plugins
+1313.000  000.000: inits 3
+1314.000  001.000: reading viminfo
+1318.000  004.000: setting raw mode
+1337.000  019.000: start termcap
+1337.000  000.000: clearing screen
+1394.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\autoload\htmlcomplete.vim
+1395.000  017.000  016.000: sourcing C:\Program Files (x86)\vim\vim80\ftplugin\html.vim
+1396.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\ftplugin\html_autoclosetag.vim
+1437.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\indent\javascript.vim
+1444.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\indent\javascript.vim
+1446.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\indent\javascript.vim
+1481.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\indent\xml.vim
+1501.000  040.000  039.000: sourcing C:\Users\sshen\.vim\bundle\vim-jsx-pretty\after\indent\javascript.vim
+1505.000  074.000  033.000: sourcing C:\Program Files (x86)\vim\vim80\indent\html.vim
+1525.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\indent\coffee.vim
+1541.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\indent\html.vim
+1541.000  027.000  023.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\after\indent\html.vim
+1556.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\indent\coffee.vim
+1568.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\indent\html.vim
+1568.000  018.000  018.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\after\indent\html.vim
+1602.000  006.000  006.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\syntax\javascript.vim
+1619.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\syntax\javascript.vim
+1621.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\javascript.vim
+1633.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-jsx-pretty\after\syntax\javascript.vim
+1648.000  004.000  004.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\vb.vim
+1685.000  016.000  016.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\css.vim
+1698.000  112.000  081.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\html.vim
+1737.000  016.000  016.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\css.vim
+1796.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\compositing-1.vim
+1797.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-align-3.vim
+1798.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-backgrounds-3.vim
+1800.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-backgrounds-4.vim
+1801.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-break-3.vim
+1802.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-cascade-3.vim
+1803.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-cascade-4.vim
+1804.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-color-4.vim
+1805.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-contain-1.vim
+1809.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-content-3.vim
+1812.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-counter-styles-3.vim
+1815.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-device-adapt-1.vim
+1816.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-display-3.vim
+1818.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-flexbox-1.vim
+1819.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-font-loading-3.vim
+1820.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-fonts-3.vim
+1824.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-fonts-4.vim
+1826.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-gcpm-3.vim
+1827.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-grid-1.vim
+1828.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-images-4.vim
+1829.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-inline-3.vim
+1831.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-line-grid-1.vim
+1832.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-lists-3.vim
+1833.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-logical-1.vim
+1834.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-masking-1.vim
+1835.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-multicol-1.vim
+1837.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-overflow-3.vim
+1838.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-overflow-4.vim
+1840.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-page-floats-3.vim
+1842.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-paint-api-1.vim
+1844.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-position-3.vim
+1845.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-properties-values-api-1.vim
+1846.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-pseudo-4.vim
+1848.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-regions-1.vim
+1849.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-rhythm-1.vim
+1850.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-round-display-1.vim
+1852.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ruby-1.vim
+1853.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-scoping-1.vim
+1854.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-scroll-snap-1.vim
+1856.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-shapes-1.vim
+1858.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-sizing-3.vim
+1859.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-style-attr.vim
+1860.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-syntax-3.vim
+1861.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-tables-3.vim
+1863.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-3.vim
+1864.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-4.vim
+1865.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-decor-3.vim
+1867.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-timing-1.vim
+1868.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-transforms-1.vim
+1869.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-typed-om-1.vim
+1870.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ui-3.vim
+1872.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ui-4.vim
+1875.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-values-3.vim
+1876.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-variables-1.vim
+1877.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-will-change-1.vim
+1878.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-writing-modes-3.vim
+1880.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-animations.vim
+1881.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-box.vim
+1882.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-color.vim
+1885.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-conditional.vim
+1887.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-exclusions.vim
+1888.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-images.vim
+1890.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-namespace.vim
+1892.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-page.vim
+1893.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-speech.vim
+1895.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-transitions.vim
+1896.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\cssom-1.vim
+1897.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\cssom-view-1.vim
+1899.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\fill-stroke-3.vim
+1901.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\filter-effects-1.vim
+1902.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\geometry-1.vim
+1903.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\html5.vim
+1904.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\motion-1.vim
+1906.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\pointerevents.vim
+1908.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors-nonelement-1.vim
+1910.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors.vim
+1911.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors4.vim
+1913.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\svg2.vim
+1914.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\web-animations-1.vim
+1916.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\webvtt1.vim
+1917.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\worklets-1.vim
+1921.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+1950.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\compositing-1.vim
+1951.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-align-3.vim
+1952.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-backgrounds-3.vim
+1954.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-backgrounds-4.vim
+1955.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-break-3.vim
+1956.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-cascade-3.vim
+1958.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-cascade-4.vim
+1960.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-color-4.vim
+1961.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-contain-1.vim
+1962.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-content-3.vim
+1965.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-counter-styles-3.vim
+1968.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-device-adapt-1.vim
+1970.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-display-3.vim
+1971.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-flexbox-1.vim
+1972.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-font-loading-3.vim
+1975.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-fonts-3.vim
+1978.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-fonts-4.vim
+1979.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-gcpm-3.vim
+1982.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-grid-1.vim
+1986.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-images-4.vim
+1991.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-inline-3.vim
+1993.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-line-grid-1.vim
+1994.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-lists-3.vim
+1996.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-logical-1.vim
+1997.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-masking-1.vim
+1998.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-multicol-1.vim
+1999.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-overflow-3.vim
+2000.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-overflow-4.vim
+2002.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-page-floats-3.vim
+2003.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-paint-api-1.vim
+2005.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-position-3.vim
+2006.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-properties-values-api-1.vim
+2008.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-pseudo-4.vim
+2009.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-regions-1.vim
+2011.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-rhythm-1.vim
+2012.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-round-display-1.vim
+2013.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ruby-1.vim
+2015.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-scoping-1.vim
+2016.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-scroll-snap-1.vim
+2017.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-shapes-1.vim
+2018.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-sizing-3.vim
+2019.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-style-attr.vim
+2020.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-syntax-3.vim
+2021.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-tables-3.vim
+2023.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-3.vim
+2025.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-4.vim
+2026.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-decor-3.vim
+2027.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-timing-1.vim
+2029.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-transforms-1.vim
+2030.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-typed-om-1.vim
+2031.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ui-3.vim
+2032.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ui-4.vim
+2033.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-values-3.vim
+2034.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-variables-1.vim
+2036.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-will-change-1.vim
+2037.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-writing-modes-3.vim
+2038.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-animations.vim
+2039.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-box.vim
+2041.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-color.vim
+2045.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-conditional.vim
+2046.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-exclusions.vim
+2048.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-images.vim
+2049.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-namespace.vim
+2050.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-page.vim
+2051.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-speech.vim
+2052.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-transitions.vim
+2053.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\cssom-1.vim
+2054.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\cssom-view-1.vim
+2055.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\fill-stroke-3.vim
+2057.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\filter-effects-1.vim
+2058.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\geometry-1.vim
+2059.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\html5.vim
+2060.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\motion-1.vim
+2061.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\pointerevents.vim
+2062.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors-nonelement-1.vim
+2063.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors.vim
+2064.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors4.vim
+2065.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\svg2.vim
+2066.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\web-animations-1.vim
+2067.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\webvtt1.vim
+2068.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\worklets-1.vim
+2073.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2084.000  373.000  295.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\syntax\less.vim
+2091.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\syntax\less.vim
+2093.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\less.vim
+2118.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2128.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2129.000  031.000  026.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\less.vim
+2152.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2161.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2162.000  028.000  022.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\less.vim
+2163.000  458.000  026.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\after\syntax\html.vim
+2176.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\syntax\javascript.vim
+2181.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\syntax\javascript.vim
+2183.000  000.000  000.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\javascript.vim
+2195.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-jsx-pretty\after\syntax\javascript.vim
+2197.000  027.000  026.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\syntax\coffee.vim
+2203.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\syntax\coffee.vim
+2214.000  049.000  022.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\after\syntax\html.vim
+2235.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2244.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2244.000  028.000  022.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\html.vim
+2293.000  024.000  024.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\css.vim
+2351.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\compositing-1.vim
+2352.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-align-3.vim
+2354.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-backgrounds-3.vim
+2355.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-backgrounds-4.vim
+2358.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-break-3.vim
+2359.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-cascade-3.vim
+2360.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-cascade-4.vim
+2361.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-color-4.vim
+2362.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-contain-1.vim
+2364.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-content-3.vim
+2369.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-counter-styles-3.vim
+2373.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-device-adapt-1.vim
+2374.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-display-3.vim
+2376.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-flexbox-1.vim
+2377.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-font-loading-3.vim
+2378.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-fonts-3.vim
+2381.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-fonts-4.vim
+2382.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-gcpm-3.vim
+2384.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-grid-1.vim
+2385.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-images-4.vim
+2386.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-inline-3.vim
+2387.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-line-grid-1.vim
+2389.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-lists-3.vim
+2391.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-logical-1.vim
+2392.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-masking-1.vim
+2393.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-multicol-1.vim
+2395.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-overflow-3.vim
+2396.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-overflow-4.vim
+2397.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-page-floats-3.vim
+2398.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-paint-api-1.vim
+2399.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-position-3.vim
+2400.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-properties-values-api-1.vim
+2402.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-pseudo-4.vim
+2403.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-regions-1.vim
+2404.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-rhythm-1.vim
+2405.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-round-display-1.vim
+2408.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ruby-1.vim
+2409.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-scoping-1.vim
+2410.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-scroll-snap-1.vim
+2411.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-shapes-1.vim
+2412.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-sizing-3.vim
+2413.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-style-attr.vim
+2415.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-syntax-3.vim
+2416.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-tables-3.vim
+2417.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-3.vim
+2419.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-4.vim
+2420.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-decor-3.vim
+2421.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-timing-1.vim
+2422.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-transforms-1.vim
+2424.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-typed-om-1.vim
+2425.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ui-3.vim
+2426.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ui-4.vim
+2427.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-values-3.vim
+2428.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-variables-1.vim
+2430.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-will-change-1.vim
+2431.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-writing-modes-3.vim
+2432.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-animations.vim
+2433.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-box.vim
+2434.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-color.vim
+2437.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-conditional.vim
+2438.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-exclusions.vim
+2441.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-images.vim
+2442.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-namespace.vim
+2443.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-page.vim
+2444.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-speech.vim
+2445.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-transitions.vim
+2446.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\cssom-1.vim
+2447.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\cssom-view-1.vim
+2448.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\fill-stroke-3.vim
+2449.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\filter-effects-1.vim
+2450.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\geometry-1.vim
+2451.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\html5.vim
+2452.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\motion-1.vim
+2453.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\pointerevents.vim
+2454.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors-nonelement-1.vim
+2456.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors.vim
+2458.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors4.vim
+2459.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\svg2.vim
+2460.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\web-animations-1.vim
+2461.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\webvtt1.vim
+2462.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\worklets-1.vim
+2466.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2497.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\compositing-1.vim
+2498.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-align-3.vim
+2500.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-backgrounds-3.vim
+2501.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-backgrounds-4.vim
+2502.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-break-3.vim
+2503.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-cascade-3.vim
+2504.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-cascade-4.vim
+2506.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-color-4.vim
+2508.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-contain-1.vim
+2510.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-content-3.vim
+2513.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-counter-styles-3.vim
+2516.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-device-adapt-1.vim
+2517.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-display-3.vim
+2518.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-flexbox-1.vim
+2519.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-font-loading-3.vim
+2521.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-fonts-3.vim
+2525.000  004.000  004.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-fonts-4.vim
+2526.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-gcpm-3.vim
+2527.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-grid-1.vim
+2529.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-images-4.vim
+2530.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-inline-3.vim
+2531.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-line-grid-1.vim
+2532.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-lists-3.vim
+2534.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-logical-1.vim
+2535.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-masking-1.vim
+2536.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-multicol-1.vim
+2537.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-overflow-3.vim
+2538.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-overflow-4.vim
+2539.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-page-floats-3.vim
+2541.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-paint-api-1.vim
+2543.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-position-3.vim
+2544.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-properties-values-api-1.vim
+2545.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-pseudo-4.vim
+2546.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-regions-1.vim
+2547.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-rhythm-1.vim
+2548.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-round-display-1.vim
+2549.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ruby-1.vim
+2550.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-scoping-1.vim
+2551.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-scroll-snap-1.vim
+2553.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-shapes-1.vim
+2554.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-sizing-3.vim
+2556.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-style-attr.vim
+2559.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-syntax-3.vim
+2560.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-tables-3.vim
+2562.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-3.vim
+2564.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-4.vim
+2566.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-text-decor-3.vim
+2567.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-timing-1.vim
+2568.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-transforms-1.vim
+2569.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-typed-om-1.vim
+2570.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ui-3.vim
+2571.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-ui-4.vim
+2575.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-values-3.vim
+2577.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-variables-1.vim
+2579.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-will-change-1.vim
+2582.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css-writing-modes-3.vim
+2582.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-animations.vim
+2583.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-box.vim
+2584.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-color.vim
+2588.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-conditional.vim
+2591.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-exclusions.vim
+2594.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-images.vim
+2595.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-namespace.vim
+2596.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-page.vim
+2597.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-speech.vim
+2598.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\css3-transitions.vim
+2600.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\cssom-1.vim
+2601.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\cssom-view-1.vim
+2602.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\fill-stroke-3.vim
+2603.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\filter-effects-1.vim
+2604.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\geometry-1.vim
+2612.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\html5.vim
+2614.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\motion-1.vim
+2616.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\pointerevents.vim
+2618.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors-nonelement-1.vim
+2619.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors.vim
+2620.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\selectors4.vim
+2622.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\svg2.vim
+2625.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\web-animations-1.vim
+2626.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\webvtt1.vim
+2627.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-css3-syntax\after\syntax\css\worklets-1.vim
+2632.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2645.000  386.000  312.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\syntax\less.vim
+2650.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\syntax\less.vim
+2653.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\less.vim
+2676.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2684.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2685.000  026.000  020.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\less.vim
+2709.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2718.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2719.000  028.000  022.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\less.vim
+2720.000  468.000  027.000: sourcing C:\Users\sshen\.vim\bundle\vim-less\after\syntax\html.vim
+2731.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\syntax\javascript.vim
+2737.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-javascript\syntax\javascript.vim
+2739.000  001.000  001.000: sourcing C:\Program Files (x86)\vim\vim80\syntax\javascript.vim
+2751.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-jsx-pretty\after\syntax\javascript.vim
+2752.000  026.000  023.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\syntax\coffee.vim
+2759.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\syntax\coffee.vim
+2770.000  049.000  023.000: sourcing C:\Users\sshen\.vim\bundle\vim-coffee-script\after\syntax\html.vim
+2790.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2799.000  003.000  003.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\css\vim-coloresque.vim
+2800.000  029.000  023.000: sourcing C:\Users\sshen\.vim\bundle\vim-coloresque\after\syntax\html.vim
+2806.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions.vim
+2810.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\quickfix.vim
+2813.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\netrw.vim
+2816.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\ctrlp.vim
+2819.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\undotree.vim
+2822.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\hunks.vim
+2827.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\branch.vim
+2829.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\bufferline.vim
+2832.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\syntastic.vim
+2835.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\whitespace.vim
+2844.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\wordcount.vim
+2847.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\keymap.vim
+2912.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\section.vim
+2914.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\highlighter.vim
+2926.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\themes.vim
+2926.000  005.000  004.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline-themes\autoload\airline\themes\solarized.vim
+2933.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\msdos.vim
+2972.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\util.vim
+2989.000  001.000  001.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\builder.vim
+2993.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\extensions\default.vim
+3049.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\conflict-marker.vim\autoload\conflict_marker\detect.vim
+3053.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-signify\autoload\sy.vim
+3058.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\vim-signify\autoload\sy\util.vim
+3113.000  051.000  051.000: sourcing C:\Users\sshen\.vim\bundle\vim-signify\autoload\sy\repo.vim
+3146.000  000.000  000.000: sourcing C:\Users\sshen\.vim\bundle\ctrlp.vim\autoload\ctrlp\utils.vim
+3200.000  047.000  047.000: sourcing C:\Users\sshen/.vimviews/E=-=+ss707494=+zw_pro=+code=+ToBu=+phone=+bill.html=
+3207.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\syntastic\autoload\syntastic\log.vim
+3207.000  429.000: opening buffers
+3214.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\undotree\autoload\undotree.vim
+3218.000  009.000: BufEnter autocommands
+3218.000  000.000: editing files in windows
+3248.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-session\autoload\xolox\session.vim
+3248.000  028.000: VimEnter autocommands
+3248.000  000.000: before starting main loop
+3267.000  002.000  002.000: sourcing C:\Users\sshen\.vim\bundle\vim-airline\autoload\airline\async.vim
+3294.000  044.000: first screen update
+3294.000  000.000: --- VIM STARTED ---

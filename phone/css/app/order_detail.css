@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: #F5F5F5;
+}
+
+#viewModel {
+  height: 100%;
+}
+.content {
+  padding: 1.4rem 0 1.2rem;
+  width: 100%;
+  height: 100%;
+  font-size: .4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .top-msg {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 .2rem ;
+  font-size: .3rem;
+}
+.content .top-msg > div {
+  width: 50%;
+}
+.dividing img {
+  width: 100%;
+}
+
+.content > div.address-infobox {
+  margin: .1rem .3rem;
+  background: #fff;
+  border-radius: .2rem;
+  padding: .2rem;
+  font-size: .3rem;
+}
+.address-infobox .name-title {
+  display: flex;
+  justify-content: space-between;
+}
+.address-infobox .name-title .title{
+  border: 1px solid #bbb;
+  border-radius: .1rem;
+  display: flex;
+  align-items: center;
+  padding: 0 .1rem;
+}
+.address-infobox .name {
+  font-weight: bold;
+  font-size: .5rem;
+}
+.address-infobox .row {
+  display: flex;
+}
+.address-infobox .area-row > div {
+  margin-right: .3rem;
+}
+
+.content > div:not(.list) {
+  flex-shrink: 0;
+}
+
+.list {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  background: #eee;
+  overflow: auto;
+}
+.list .item {
+  width: 100%;
+  padding: .3rem .3rem;
+  /*border-radius: 12px;*/
+  /*border: 1px solid #ddd;*/
+  /*overflow: hidden;*/
+
+  display: flex;
+  background: #F5F5F5;
+  border-bottom: 1px solid #ddd;
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  position: relative;
+}
+.list .item > div {
+  flex: 3;
+}
+.list .item .text {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: .3rem;
+}
+.list .item .text .name {
+  font-size: .5rem;
+  font-weight: bold;
+}
+.list .item .img {
+  height: 2rem;
+}
+.list .item .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list .item .img img {
+  width: 100%;
+  height: 100%;
+}
+.content > div.btn {
+  padding: 0;
+  position: fixed;
+  bottom: -1px;
+  width: 100%;
+  display: flex;
+}
+.content .btn input {
+  width: 100%;
+  height: 1.2rem;
+  color: #eee;
+}
+
+.content .card-msg {
+  color: #fff;
+  margin: 0 .3rem;
+  border-radius: 0.2rem;
+  padding: .1rem .4rem;
+}
+.content .card-msg .row {
+  display: flex;
+  font-size: .3rem;
+}
