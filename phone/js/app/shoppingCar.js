@@ -160,6 +160,45 @@ appcan.ready(function() {
     return res;
   }
 
+  $(document).on('click', '.count-box .delete', function(e) {
+    var _self = $(this);
+    var sID = _self.parents('.item').attr('data-carId');
+    if (sID && __uID) {
+      appcan.window.confirm({
+        title: '',
+        content: MODEL.get('d_sure_delete'),
+        buttons:[MODEL.get('d_ok'), MODEL.get('d_cancle')],
+        callback:function(err,data,dataType,optId){
+          if(err){
+            return;
+          }
+          if (data == 0) {
+            var parObj = {
+              uID: __uID,
+              sID: sID
+            }
+            SSTool.ajax({
+              hasLoading: 1,
+              url: "http://ensonbuy.com/api/app/DeleteShoppingCart",
+              data: JSON.stringify(parObj),
+              success: function (result, status) {
+                var _res = JSON.parse(JSON.parse(result))
+                if (_res['return'] == 1) {
+                  appcan.window.openToast(MODEL.get('d_operate_suc'), 1500);
+                  getData();
+                }else {
+                  appcan.window.openToast(MODEL.get('d_operate_fail'), 1500);
+                }
+              },
+
+            });
+          }
+        }
+      });
+    }
+    //sunPrice();
+    //setTimeout(saveShoppingCartSate , 500);
+  });
   $(document).on('tap', '.endbtn .btn input', function(e) {
     saveShoppingCartSate({isNotSilent: 1});
   })
