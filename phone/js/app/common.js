@@ -148,7 +148,7 @@
     },
     getCurrentUID: function() {
       //__uID  87ac69d2-39be-476e-ab28-cc283cce6104
-      //return '87ac69d2-39be-476e-ab28-cc283cce6104';
+      // return '87ac69d2-39be-476e-ab28-cc283cce6104';
       return localStorage.getItem('CurrentUID');
     },
     initFontSmall: function() {
@@ -339,6 +339,9 @@
       d_number: '数量',
       d_save_login_state: '保存登录状态',
       d_sail_unit: '销售单位',
+      d_sure_delete: '确认删除',
+      d_operate_suc: '操作成功',
+      d_operate_fail: '操作失败',
     },
     eng: {
       d_language: 'chi',
@@ -518,6 +521,9 @@
       d_number: 'Number',
       d_save_login_state: 'SaveLoginState',
       d_sail_unit: 'SaleUnit',
+      d_sure_delete: 'Confirm deletion',
+      d_operate_suc: 'Successful operation',
+      d_operate_fail: 'Operation failed',
     }
   }
   SSTool.lanDict = Dict__;

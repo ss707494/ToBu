@@ -34,7 +34,7 @@
           </div>
         </div>
         <div id="list_" class="list" mvvm-scope data-bind="collection: $collection" >
-          <div class="item" data-bind="attr: {'data-id' : id}">
+          <div class="item" data-bind="attr: {'data-id' : id, 'data-carId' : carId}">
             <div class="img">
               <img data-bind="attr: {src: imgPath, alt: name}">
               <div class="rightTip">
@@ -44,12 +44,20 @@
             </div>
             <div class="text-box">
               <div class="name nowrap-text" data-bind="text: name"></div>
-              <div class="weight" data-bind="text: weight"></div>
+              <div class="weight">
+              <div data-bind="text: weight"></div>
+              <div data-bind="text: unitStr"></div>
+              </div>
               <div class="price color-red" data-bind="text: price"></div>
             </div>
             <div class="count-box">
-              <div class="checkbox">
-                <input type="checkbox" class="" data-bind="checked: isCheck"/>
+              <div class="operate">
+                <div class="delete">
+                  <i class="iconfont icon-lajixiang"></i>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" class="" data-bind="checked: isCheck"/>
+                </div>
               </div>
               <div data-bind="toggle: showStock" class="stock" >
               (

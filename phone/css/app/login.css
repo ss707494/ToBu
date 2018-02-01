@@ -82,17 +82,23 @@ body {
 	font-size: .4rem;
   display: flex;
 }
-.banben_hao #regist {
+#regist {
 	color: #ED1C24;
   text-decoration: underline;
+  font-size: .5rem;
+  position: absolute;
+  padding: .2rem .4rem;
 
 }
 .banben_hao > div {
   flex: 1;
 }
-.banben_hao .save-state {
-  display: flex;
+.save-state {  
+	display: flex;
   align-items: center;
+  justify-content: center;
+  height: 1rem;
+  font-size: 0.4rem;
 }
 .banben_hao .checkbox {
   height: auto;
@@ -129,5 +135,7 @@ body {
 }
 .islider-dot-wrap {
   top: 7rem;
+}
+body {
 }
 /*end*/

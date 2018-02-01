@@ -7,7 +7,7 @@ appcan.ready(function() {
     //userName: 'zy',
     //password: '1',
 
-    saveState: true,
+    saveState: false,
   });
   SSTool.init();
 

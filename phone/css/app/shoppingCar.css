@@ -89,6 +89,19 @@ body {
   justify-content: space-between;
 
 }
+.count-box .operate {
+  display: flex;
+  align-items: center;
+}
+.count-box .delete {
+  width: 1rem;
+  text-align: center;
+  margin-right: .3rem;
+}
+.count-box .delete .iconfont {
+	font-size: 24px;
+	line-height: .6rem;
+ }
 .count-box .checkbox {
   width: .6rem;
   height: .6rem;

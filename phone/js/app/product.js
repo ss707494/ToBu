@@ -56,6 +56,7 @@ appcan.ready(function() {
       option.call();
     }
     if (dealData.noMore) SSTool.setScrollToggle(0);
+    SSTool.initFontSmall();
   }
   SSTool.initScroll(getMoreData);
 
@@ -157,9 +158,9 @@ appcan.ready(function() {
     var _display = data['DisplayCompany'];
     var _wei = _display.split('(')[0]
 
-    res.weight = _wei.split('/')[0];
     res.weight_chi = _wei.split('/')[0];
     res.weight_eng = _wei.split('/')[1];
+    res.weight = res['weight_' + (localStorage.getItem('d_language') || 'chi')];
     res.weightNum = data.OutPriceArray[0]['F_CSPWeight'];
     res.unit = data.OutPriceArray[0]['F_CSPCompany'];
     res.unitStr = (_display.split('(')[1] ? '(' + _display.split('(')[1]: '');
