@@ -1,4 +1,4 @@
-appcan.ready(function() {
+$(function() {
   var __uID = SSTool.getCurrentUID();
   appcan.window.on('resume', function() {
     __uID = SSTool.getCurrentUID();

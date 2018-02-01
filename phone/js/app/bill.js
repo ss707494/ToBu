@@ -1,3 +1,9 @@
+// lskdjfsklfj
+//
+function ss(argument) {
+
+
+}
 appcan.ready(function() {
   var __uID = SSTool.getCurrentUID();
   appcan.window.on('resume', function() {
